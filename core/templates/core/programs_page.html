@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}About Page{% endblock %}
+{% block content %}
+<style>
+    /* General */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #0b0b0b;
+        margin: 0;
+        color: white;
+        line-height: 1.6;
+    }
+    
+    /* Hero Section */
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('{% static "images/gym-banner.jpg" %}') no-repeat center center/cover;
+        padding: 100px 20px;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        text-shadow: 0 0 10px #0dfa05;
+    }
+    
+    .hero p {
+        font-size: 1.2em;
+        max-width: 700px;
+        margin: 0 auto 30px;
+        color: #ccc;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 12px 25px;
+        background: #0dfa05;
+        color: #000;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 0 10px #0dfa05;
+        transition: 0.3s ease;
+    }
+    
+    .btn:hover {
+        background: black;
+        color: #0dfa05;
+        box-shadow: 0 0 15px #0dfa05, 0 0 5px #0dfa05 inset;
+    }
+    
+    /* Programs Section */
+    .programs {
+        padding: 60px 20px;
+        text-align: center;
+    }
+    
+    .programs h2 {
+        color: #0dfa05;
+        font-size: 2em;
+        margin-bottom: 40px;
+    }
+    
+    .program-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+    .program-card {
+        background: #1a1a1a;
+        width: 260px;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(13, 250, 5, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+        text-align: center;
+    }
+    
+    .program-card:hover {
+        transform: scale(1.06);
+        box-shadow: 0 0 20px rgba(13, 250, 5, 0.4);
+    }
+    
+    .program-card img {
+        width: 100%;
+        border-radius: 8px;
+        height: 160px;
+        object-fit: cover;
+    }
+    
+    .program-card h3 {
+        margin-top: 15px;
+        color: #0dfa05;
+        font-size: 1.3em;
+    }
+    
+    .program-card p {
+        font-size: 0.95em;
+        color: #ccc;
+        margin-bottom: 10px;
+    }
+    
+    /* Pricing Table */
+    .pricing {
+        padding: 60px 20px;
+        text-align: center;
+    }
+    
+    .pricing h2 {
+        color: #0dfa05;
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    
+    table {
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        border-collapse: collapse;
+        background: #111;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+        overflow-x: auto;
+    }
+    
+    th, td {
+        padding: 15px;
+        border: 1px solid #0dfa05;
+        text-align: center;
+    }
+    
+    th {
+        background: #0dfa05;
+        color: black;
+        font-size: 1.1em;
+    }
+    
+    td {
+        color: #eee;
+    }
+    
+    /* Testimonials */
+    .testimonials {
+        padding: 60px 20px;
+        text-align: center;
+        background: #121212;
+    }
+    
+    .testimonials h2 {
+        color: #0dfa05;
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    
+    .testimonial {
+        background: #1e1e1e;
+        color: #fff;
+        padding: 25px;
+        border-radius: 10px;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 600px;
+        box-shadow: 0 0 10px rgba(13, 250, 5, 0.1);
+        font-style: italic;
+        position: relative;
+    }
+    
+    .testimonial::before {
+        content: '“';
+        font-size: 3em;
+        color: #0dfa05;
+        position: absolute;
+        top: -20px;
+        left: 20px;
+    }
+    
+    .testimonial strong {
+        display: block;
+        margin-top: 15px;
+        color: #0dfa05;
+    }
+    </style>
+    
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Find the Perfect Workout for You</h1>
+        <p>Whether you're looking to build strength, lose weight, or improve endurance, we have the perfect program for you.</p>
+        <a href="#programs" class="btn">Explore Programs</a>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <h2>Our Training Programs</h2>
+        <div class="program-grid">
+            <div class="program-card">
+                <img src="{% static 'images/strength.jpg'%}" alt="Strength Training">
+                <h3>Strength Training</h3>
+                <p>Focus on muscle building and power.</p>
+                <a href="strength-training.html" class="btn">Learn More</a>
+            </div>
+            <div class="program-card">
+                <img src="{% static 'images/weightloss.jpg'%}" alt="Weight Loss">
+                <h3>Weight Loss Program</h3>
+                <p>Cardio + HIIT for fat burn.</p>
+                <a href="weight-loss.html" class="btn">Learn More</a>
+            </div>
+            <div class="program-card">
+                <img src="{% static 'images/hii.jpg'%}" alt="HIIT Training">
+                <h3>HIIT & Functional Training</h3>
+                <p>High-intensity workouts.</p>
+                <a href="hiit.html" class="btn">Learn More</a>
+            </div>
+            <div class="program-card">
+                <img src="{% static 'yoga.pn'%}g" alt="Yoga">
+                <h3>Yoga & Flexibility</h3>
+                <p>Improve mobility and relaxation.</p>
+                <a href="yoga.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership & Pricing -->
+    <section class="pricing">
+        <h2>Membership & Pricing</h2>
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Price</th>
+                <th>Features</th>
+            </tr>
+            <tr>
+                <td>Monthly</td>
+                <td>Rs 1,300</td>
+                <td>Unlimited Gym Access</td>
+            </tr>
+            <tr>
+                <td>Quarterly</td>
+                <td>Rs 4,800</td>
+                <td>Group Classes + Personal Training</td>
+            </tr>
+            <tr>
+                <td>Annual</td>
+                <td>Rs 6,000</td>
+                <td>Full Access + Nutrition Plans</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Success Stories</h2>
+        <div class="testimonial">
+            <p>"I lost 20kg in just 6 months with the Weight Loss Program!"</p>
+            <strong>- Alex, Member</strong>
+        </div>
+        <div class="testimonial">
+            <p>"The personal training sessions helped me gain muscle and confidence!"</p>
+            <strong>- Chris, Member</strong>
+        </div>
+    </section>
+</main>
+{% endblock %}

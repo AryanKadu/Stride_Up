@@ -1,0 +1,183 @@
+<!-- FOR Login and Signup Only -->
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}StrideUp{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Aclonica&family=Alef:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0d0907;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            background:transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            padding: 15px 50px;
+            /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
+          }
+          
+          .logo {
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 'Aclonica', sans-serif;
+          }
+          
+          .logo a{
+            text-decoration: none;
+          }
+.white {
+            color: #ffffff;
+          }
+          
+          .green {
+            color: #0dfa05;
+          }
+
+
+main {
+  margin-top: 80px; /* Space for fixed navbar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Container for background spots */
+.background-spots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  /* Common spot styles */
+  .background-spots .spot {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.35;
+    animation: floatBlob 20s ease-in-out infinite;
+  }
+
+
+/* Individual spot styles */
+.spot1 {
+    width: 400px;
+    height: 400px;
+    background: #0dfa05;
+    top: 15%;
+    left: 10%;
+    animation-delay: 0s;
+  }
+  
+  .spot2 {
+    width: 300px;
+    height: 300px;
+    background: #05e71b;
+    top: 10%;
+    left: 70%;
+    animation-delay: 5s;
+  }
+  
+  .spot3 {
+    width: 350px;
+    height: 350px;
+    background: #0dfa05;
+    top: 80%;
+    left: 50%;
+    animation-delay: 10s;
+  }
+  
+  /* Animation for floating blobs */
+  @keyframes floatBlob {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(40px, -30px);
+    }
+  }
+  
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="{% url 'core:landing' %}">
+                <span class="white">Stride</span><span class="green">Up</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    {% if user.is_authenticated %}
+                        {% if user.role == 'trainee' %}
+                            <li class="nav-item"><a class="nav-link" href="{% url 'core:trainee_dashboard' %}">Dashboard</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'workouts:weekly_workout' %}">Weekly Plan</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'workouts:progress_history' %}">Progress</a></li>
+                        {% elif user.role == 'trainer' %}
+                            <li class="nav-item"><a class="nav-link" href="{% url 'core:trainer_dashboard' %}">Trainer Dashboard</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'workouts:trainee_workouts' %}">Trainee Workouts</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'workouts:workout_create' %}">Create Workout</a></li>
+                        {% endif %}
+                        <li class="nav-item">
+                            <form id="logout-form" method="post" action="{% url 'users:logout' %}">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-danger">Logout</button>
+                            </form>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'users:signup' %}">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'users:login' %}">Login</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="background-spots">
+        <span class="spot spot1"></span>
+        <span class="spot spot2"></span>
+        <span class="spot spot3"></span>
+      </div>
+    <div class="container mt-4">
+        {% block content %}{% endblock %}
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

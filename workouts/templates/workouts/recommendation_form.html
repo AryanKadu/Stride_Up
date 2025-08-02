@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Get Recommendations{% endblock %}
+
+{% block content %}
+<main>
+  <div class="container mt-5">
+    <h2 class="text-center">Get Your Diet and Workout Recommendations</h2>
+    <form method="post" action="{% url 'workouts:get_recommendations' %}">
+      {% csrf_token %}
+      <div class="mb-3">
+        <label for="age" class="form-label">Age</label>
+        <input type="number" class="form-control" id="age" name="age" required>
+      </div>
+      <div class="mb-3">
+        <label for="weight" class="form-label">Weight (kg)</label>
+        <input type="number" class="form-control" id="weight" name="weight" required>
+      </div>
+      <div class="mb-3">
+        <label for="height" class="form-label">Height (cm)</label>
+        <input type="number" class="form-control" id="height" name="height" required>
+      </div>
+      <div class="mb-3">
+        <label for="dietary_preference" class="form-label">Dietary Preference</label>
+        <select class="form-select" id="dietary_preference" name="dietary_preference" required>
+          <option value="Veg">Vegetarian</option>
+          <option value="Non-Veg">Non-Vegetarian</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="fitness_goal" class="form-label">Fitness Goal</label>
+        <select class="form-select" id="fitness_goal" name="fitness_goal" required>
+          <option value="Weight Loss">Weight Loss</option>
+          <option value="Muscle Gain">Muscle Gain</option>
+          <option value="General Fitness">General Fitness</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Get Recommendations</button>
+    </form>
+  </div>
+</main>
+{% endblock %}

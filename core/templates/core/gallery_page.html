@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}About Page{% endblock %}
+{% block content %}
+
+<style>
+
+/* Hero Section */
+.hero {
+    background: url('gym-hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0dfa05;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #08c904;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px;
+    /* background: black; */
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.gallery-container img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 255, 0, 0.8);
+}
+
+/* Video Section */
+.videos {
+    padding: 50px;
+    /* background: #121212; */
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Social Media Section */
+.social-feed {
+    padding: 50px;
+    /* background: black; */
+}
+
+.insta-feed {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.insta-feed img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+}
+
+/* Call to Action */
+.cta {
+    padding: 50px;
+    /* background: #0a0a0a; */
+    color: white;
+}
+
+.cta h2 {
+    color: #0dfa05;
+}
+
+
+</style>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Experience the Energy & Strength</h1>
+        <p>Explore our gym facilities, training sessions, and transformation stories.</p>
+        <!-- <a href="memPlan.html" class="btn">Join Now</a> -->
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery">
+        <h2>Our Gym in Action</h2>
+        <div class="gallery-container">
+            <img src="{%static 'images/gym1.jpg'%}" alt="Gym Equipment">
+            <img src="{%static 'images/workout.jpg'%}" alt="Workout Session">
+            <img src="{%static 'images/yoga.jpg'%}" alt="Yoga Class">
+            <img src="{%static 'images/trainer3.jpg'%}" alt="Personal Training">
+            <img src="{%static 'images/group.jpg'%}" alt="Group Workout">
+            <img src="{%static 'images/transformation.jpg'%}" alt="Member Transformation">
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="videos">
+        <h2>Watch Our Gym in Action</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VAxic5ktszY?si=jqPLA0u2iepDW4V0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A430uyuHHfk?si=pefBDY8sUieawUSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-feed">
+        <h2>Follow Us on Instagram</h2>
+        <p>#StrideUp</p>
+        <div class="insta-feed">
+            <img src="{%static 'images/insta1.jpg'%}" alt="Instagram Post">
+            <img src="{%static 'images/insta2.jpg'%}" alt="Instagram Post">
+            <img src="{% static 'images/insta3.jpg'%}" alt="Instagram Post">
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Ready to Transform Your Body?</h2>
+        <p>Join us today and start your fitness journey!</p>
+        <a href="contact.html" class="btn">Book a Free Tour</a>
+    </section>
+
+
+</main>
+
+{% endblock %}

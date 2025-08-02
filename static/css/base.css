@@ -1,0 +1,229 @@
+        /* Global Styles */
+        html {
+            scroll-behavior: smooth;
+            height: 100%;
+            margin: 0;
+
+          }
+          
+          * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+          }
+          
+          h1, h2, h3, .display-3 {
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 1px;
+          }
+
+          body {
+            background: #0d0907;
+            color: #fff;
+            /* font-family: 'Montserrat', sans-serif; */
+            font-family: 'Poppins', sans-serif;
+
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            min-height: 100vh;
+          }
+
+          .content {
+            flex: 1;
+          }
+          
+          main {
+            margin-top: 100px; /* Space for fixed navbar */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          
+                  /* Navbar Styles */
+          .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            background-color: #28231D;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            padding: 15px 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+          }
+          
+          .logo {
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 'Aclonica', sans-serif;
+          }
+          
+          .logo a{
+            text-decoration: none;
+          }
+          
+          .white {
+            color: #ffffff;
+          }
+          
+          .green {
+            color: #0dfa05;
+          }
+          
+          .nav-links {
+            display: flex;
+            list-style: none;
+          }
+          
+          .nav-links li {
+            padding: 15px 20px;
+            position: relative;
+          }
+          
+          .nav-links li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+          }
+          
+          .nav-links li a:hover {
+            color: #0dfa05;
+            text-shadow: 0 0 10px black, 0 0 20px white;
+          }
+          
+          .nav-links li:hover::before,
+          .nav-links li:hover::after {
+            transform: scaleY(1);
+          }
+          
+          /* Signup Button */
+          .signup-btn {
+            background: #0dfa05;
+            border: none;
+            color: #000;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+          }
+          
+          .signup-btn:hover {
+            background: #0dfa05;
+            box-shadow: 0 0 15px #0dfa05, 0 0 25px #0dfa05;
+            transform: scale(1.05);
+          }
+          
+          
+                  /* Footer */
+          .footer {
+            width: 100%;
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+          }
+          
+          .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+          }
+          
+          .footer a {
+            color: #0dfa05;
+            text-decoration: none;
+            transition: all 0.3s ease;
+          }
+          
+          .footer a:hover {
+            text-decoration: underline;
+            color: #fff;
+          }
+          
+          .copyright {
+            width: 100%;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 12px;
+            opacity: 0.8;
+          }
+
+
+
+/* Container for background spots */
+.background-spots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  /* Common spot styles */
+  .background-spots .spot {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.35;
+    animation: floatBlob 20s ease-in-out infinite;
+  }
+  
+  /* Individual spot styles */
+  .spot1 {
+    width: 400px;
+    height: 400px;
+    background: #0dfa05;
+    top: 15%;
+    left: 10%;
+    animation-delay: 0s;
+  }
+  
+  .spot2 {
+    width: 300px;
+    height: 300px;
+    background: #05e71b;
+    top: 10%;
+    left: 70%;
+    animation-delay: 5s;
+  }
+  
+  .spot3 {
+    width: 350px;
+    height: 350px;
+    background: #0dfa05;
+    top: 80%;
+    left: 50%;
+    animation-delay: 10s;
+  }
+  
+  /* Animation for floating blobs */
+  @keyframes floatBlob {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(40px, -30px);
+    }
+  }
+  

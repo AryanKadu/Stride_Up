@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% block title %}Trainee Workouts{% endblock %}
+
+{% block content %}
+
+<style>
+
+    /* Assigned Trainees - Dark Neon Theme */
+    
+    /* Header */
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      color: #0dfa05;
+      text-shadow: 0 0 10px #0dfa05;
+    }
+    
+    /* Table */
+    .table {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      border: 1px solid #0dfa05;
+      box-shadow: 0 0 10px rgba(13, 250, 5, 0.3);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    .table thead {
+      background-color: #000;
+      color: #0dfa05;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+      border-bottom: 2px solid #0dfa05;
+    }
+    
+    .table th,
+    .table td {
+      vertical-align: middle;
+      text-align: center;
+      padding: 15px;
+      border-color: #2f2f2f;
+    }
+    
+    /* Button */
+    .btn-info {
+      background-color: transparent;
+      color: #0dfa05;
+      border: 2px solid #0dfa05;
+      margin: 5px;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-info:hover {
+      background-color: #0dfa05;
+      color: #000;
+      box-shadow: 0 0 10px #0dfa05;
+      transform: scale(1.05);
+    }
+    
+    /* No Workouts Text */
+    span {
+      color: #ccc;
+      font-style: italic;
+    }
+    
+    /* Empty Row */
+    .table td[colspan="2"] {
+      color: #888;
+      font-style: italic;
+      font-size: 1rem;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 2rem;
+      }
+    
+      .btn-info {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+    
+    
+    </style>
+
+<main>
+<div class="container">
+    <h2>Assigned Trainees</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Trainee</th>
+                <th>Workouts</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for trainee in trainees %}
+            <tr>
+                <td>{{ trainee.username }}</td>
+                <td>
+                    {% for workout in trainee.workouts.all %}  {# Fixed from workout_set.all #}
+                        <a href="{% url 'workouts:workout_detail' workout.pk %}" class="btn btn-sm btn-info">
+                            View Workout ({{ workout.name }})
+                        </a>
+                    {% empty %}
+                        <span>No workouts assigned</span>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="2">No trainees assigned yet.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</main>
+{% endblock %}

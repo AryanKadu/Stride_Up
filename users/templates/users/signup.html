@@ -1,0 +1,79 @@
+{% extends "base1.html" %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+
+<style>
+    .btn-glow-green {
+  background-color: #0dfa05;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0dfa05;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-glow-green:hover {
+  background-color: #0cc204;
+  box-shadow: 0 0 25px #0dfa05, 0 0 40px #0dfa05;
+}
+
+.link-green {
+  color: #0dfa05;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link-green:hover {
+  text-shadow: 0 0 6px #0dfa05;
+  color: #0cc204;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  background-color: #0d0d0d;
+  border: 1px solid #0dfa05;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px rgba(13, 250, 5, 0.2);
+}
+
+form input:focus, form select:focus, form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 12px #0dfa05;
+  border-color: #0dfa05;
+}
+
+form label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+  color: #0dfa05;
+  text-shadow: 0 0 4px #0dfa05;
+}
+
+</style>
+
+<main>
+  <div class="container" style="max-width: 500px; padding: 2rem; background: rgba(20, 20, 20, 0.6); border: 1px solid #0dfa05; border-radius: 16px; box-shadow: 0 0 20px rgba(13, 250, 5, 0.3);">
+    <h2 style="color: #0dfa05; text-shadow: 0 0 8px #0dfa05;" class="mb-4">Sign Up</h2>
+
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="btn-glow-green">Sign Up</button>
+    </form>
+
+    <p class="mt-3 text-white">Already have an account? 
+      <a href="{% url 'users:login' %}" class="link-green">Login</a>
+    </p>
+  </div>
+</main>
+{% endblock %}

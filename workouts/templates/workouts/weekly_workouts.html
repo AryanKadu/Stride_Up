@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Weekly Workouts{% endblock %}
+
+
+{% block content %}
+<style>
+    /* Weekly Workouts Styles */
+
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #0dfa05;
+  text-shadow: 0 0 10px #0dfa05;
+}
+
+.accordion-item {
+  background-color: #1c1c1c;
+  border: 1px solid #0dfa05;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(13, 250, 5, 0.3);
+}
+
+.accordion-button {
+  background-color: #111;
+  color: #0dfa05;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0 0 5px #0dfa05;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #000;    
+
+  color: #0dfa05;
+}
+
+.accordion-body {
+  background-color: #0d0907;
+  color: #fff;
+  padding: 20px;
+}
+
+.list-group-item {
+  background-color: #161616;
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+  border-left: 4px solid #0dfa05;
+  padding: 15px;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  transform: scale(1.02);
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px #0dfa05;
+}
+
+.list-group-item strong {
+  color: #0dfa05;
+}
+
+.btn-sm {
+  margin-top: 8px;
+  background-color: transparent;
+  color: #0dfa05;
+  border: 4px #0dfa05 solid;
+  border: none;
+}
+
+.btn-sm:hover {
+  background-color: #0be306;
+  box-shadow: 0 0 10px #0dfa05;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+  }
+
+  .list-group-item {
+    font-size: 15px;
+  }
+}
+
+</style>
+<main>
+<div class="container">
+    <h2>Weekly Workouts</h2>
+    {% if weekly_workouts %}
+        <div class="accordion" id="weeklyWorkoutsAccordion">
+            {% for date, workouts in weekly_workouts.items %}
+                {% with date_id=date|date:"Ymd" %}  {# Convert date to safe string like 20250331 #}
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading{{ date_id }}">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ date_id }}" aria-expanded="true" aria-controls="collapse{{ date_id }}">
+                            {{ date }}
+                        </button>
+                    </h2>
+                    <div id="collapse{{ date_id }}" class="accordion-collapse collapse" aria-labelledby="heading{{ date_id }}" data-bs-parent="#weeklyWorkoutsAccordion">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                {% for workout in workouts %}
+                                    <li class="list-group-item">
+                                        <strong>{{ workout.name }}</strong> - {{ workout.description }}<br>
+                                        <small>Date: {{ workout.date }}</small><br>
+                                        <a href="{% url 'workouts:workout_detail' workout.pk %}" class="btn btn-primary btn-sm">View Details</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endwith %}
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>No workouts found for this week.</p>
+    {% endif %}
+</div>
+
+</main>
+{% endblock %}
+
+
+

@@ -1,0 +1,281 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}About Page{% endblock %}
+{% block content %}
+
+<style>
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about-container {
+    width: 100%;
+    /* background: black; */
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.about-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    /* margin-top: 20px; */
+}
+
+.about-intro h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.about-intro h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0dfa05;
+    margin-bottom: 25px;
+}
+
+.about-intro p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.green {
+    color: #0dfa05;
+    font-weight: 700;
+}
+
+.info-section, .services-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    /* background: black; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    text-align: center;
+    max-width: 300px;
+    background: #28231d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border:1px solid white;
+    transition: transform 0.3s ease;
+}
+
+.info-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info-box h3 {
+    font-size: 22px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+}
+
+.info-box:hover{
+    transform: translateY(-5px);
+    box-shadow:0 10px 20px #0dfa05;
+    border-color: #0dfa05;
+
+}
+.service-box {
+    text-align: center;
+    max-width: 300px;
+    background: #4E342E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border:1px solid white;
+    transition: transform 0.3s ease;
+}
+
+.service-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #E0E0E0;
+    line-height: 1.6;
+}
+
+.service-box:hover{
+    transform: translateY(-5px);
+    box-shadow:0 10px 20px #0dfa05;
+    border-color: #0dfa05;
+
+}
+
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 15px;
+    }
+    
+    .logo {
+      margin-bottom: 10px;
+    }
+    
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+      display: none;
+    }
+    
+    .nav-links li {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    .signup-btn {
+      margin-top: 10px;
+      width: 100%;
+    }
+    
+    .stats-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .carousel {
+      height: 300px;
+    }
+    
+    .caption {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+    
+    .reviews-container {
+      padding: 30px 10px;
+    }
+    
+    .footer-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel {
+      height: 250px;
+    }
+    
+    .trainer {
+      width: 240px;
+    }
+    
+    .stats-heading h2, .trainers-section h2, .reviews-container h2 {
+      font-size: 24px;
+    }
+    
+    .stats-container {
+      padding: 20px 10px;
+    }
+    
+    .stat h2 {
+      font-size: 28px;
+    }
+    
+    .stat p {
+      font-size: 14px;
+    }
+  }
+
+</style>
+
+<main>
+    
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <!-- About Section -->
+        <section class="about-container">
+            <div class="about-intro">
+                <h1>Welcome to <span class="white">Stride</span><span class="green">Up</span></h1>
+                <h3>"Stronger Every Day"</h3>
+                <p>
+                    At StrideUp, we believe fitness is more than just workouts—it’s a lifestyle. Our state-of-the-art facilities, expert trainers, and personalized programs are designed to help you achieve your health goals, whether you’re a beginner or an experienced athlete.
+                </p>
+                <p>
+                    From <strong>strength training</strong> and <strong>HIIT</strong> to <strong>yoga</strong> and <strong>nutrition guidance</strong>, we provide a holistic approach to fitness. Join the StrideUp community today and take the first step towards a <strong>stronger, healthier, and more confident you</strong>!
+                </p>
+                <p>
+                    At StrideUp, we focus on building a supportive fitness community where everyone, regardless of their fitness level, feels encouraged and motivated. 
+                     With our innovative training techniques, state-of-the-art equipment, and a positive environment, we make fitness an enjoyable experience.
+                </p>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <h1>What Makes Our Gym Unique ? </h1>
+        <section class="info-section">
+            <div class="info-box">
+                <img src="{% static 'images/trainingProgram.jpg'%}" alt="Training Program">
+                <h3>Personalized Training Programs</h3>
+                <p>We offer customized training programs designed for different fitness levels, ensuring that every member achieves their fitness goals effectively.</p>
+            </div>
+            <div class="info-box">
+                <img src="{%static 'images/gym equip photo.jpg'%}" alt="Gym Equipment">
+                <h3>State-of-the-Art Gym Equipment</h3>
+                <p>Our gym is equipped with the latest machines and tools to provide a seamless workout experience for strength, endurance, and flexibility training.</p>
+            </div>
+            <div class="info-box">
+                <img src="{%static 'images/gym group photo.jpg'%}" alt="Group Training">
+                <h3>Supportive Community</h3>
+                <p>Join a like-minded fitness community that motivates and supports each other through group workouts, challenges, and events.</p>
+            </div>
+        </section>
+        <h1>Our Services &#38; Facilities</h1>
+
+        <section class="services-section">
+            <div class="service-box">
+                <img src="{%static 'images/workoutZones.jpg'%}" alt="Workout Zones">
+                <h3>Dedicated Workout Zones</h3>
+                <p>Our facility features specialized workout zones for weightlifting, cardio, and functional training to cater to all fitness needs.</p>
+            </div>
+            <div class="service-box">
+                <img src="{%static 'images/nutrirional counseling.jpg'%}" alt="Nutrition Counseling">
+                <h3>Expert Nutrition Counseling</h3>
+                <p>Get personalized diet plans and nutrition advice from our certified experts to complement your training and maximize results.</p>
+            </div>
+            <div class="service-box">
+                <img src="{%static 'images/sauna.jpg'%}" alt="Sauna">
+                <h3>Relaxing Sauna</h3>
+                <p>Unwind and rejuvenate after workouts with our luxurious sauna facilities designed for relaxation and muscle recovery.</p>
+            </div>
+        </section>
+    </section>
+</main>
+
+{% endblock %}

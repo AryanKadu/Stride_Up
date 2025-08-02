@@ -1,0 +1,1010 @@
+Food Item,Category,Meal Type,Cuisine Region,Calories (kcal),Carbohydrates (g),Proteins (g),Fats (g),Fiber (g),Calcium (mg),Iron (mg),Magnesium (mg),Potassium (mg),Vitamin A (µg),Vitamin C (mg),Vitamin B12 (µg),Serving Size (g/ml),Dietary Preference,Preparation Time (minutes),Veg/Non-Veg,Preferred For,Cheat Meal
+Paratha,Vegetarian,Breakfast,North Indian,150,49,16,42,9,58,3.2,42.0,183,109,19,1.9,272,General Fitness,33,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,145,10,15,35,2,90,5.9,15.0,240,53,21,1.3,242,General Fitness,89,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,584,13,12,34,6,282,0.7,78.0,429,71,31,0.7,309,General Fitness,5,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,295,25,22,31,3,185,1.3,22.0,155,248,26,1.4,267,General Fitness,43,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,319,46,14,34,8,167,3.7,30.0,360,92,30,0.6,363,General Fitness,12,Non-Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,606,10,19,27,5,212,4.3,78.0,337,126,17,1.3,372,General Fitness,47,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,505,35,36,22,3,287,1.4,21.0,334,129,28,0.5,346,General Fitness,88,Non-Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,588,14,6,47,10,203,2.4,76.0,215,83,8,1.4,303,General Fitness,27,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,500,25,28,27,1,34,2.7,73.0,198,219,31,1.5,391,General Fitness,32,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,280,50,24,12,8,185,2.4,62.0,324,128,29,1.7,223,General Fitness,76,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,263,15,29,43,10,175,1.8,53.0,418,188,15,0.0,150,General Fitness,78,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,210,45,26,2,6,67,1.6,75.0,479,80,7,1.2,297,General Fitness,66,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,635,63,13,9,1,271,3.5,72.0,104,179,10,1.2,266,General Fitness,40,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,321,32,15,30,7,121,3.5,40.0,438,221,16,0.9,275,General Fitness,45,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,659,30,21,9,7,21,2.3,45.0,143,213,10,0.9,206,General Fitness,8,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,411,54,33,33,1,35,0.7,29.0,369,53,29,1.2,101,General Fitness,40,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,659,12,30,31,8,214,3.8,17.0,408,134,28,1.2,114,General Fitness,36,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,537,57,32,18,1,188,2.6,34.0,485,95,9,1.2,119,General Fitness,8,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,637,35,30,21,7,80,4.2,19.0,437,135,22,1.3,244,General Fitness,79,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,594,75,5,28,5,287,2.4,66.0,173,244,20,1.2,342,General Fitness,56,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,340,71,5,19,4,157,0.9,47.0,368,87,18,0.0,240,General Fitness,74,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,546,41,8,28,2,97,5.2,64.0,390,92,8,0.5,375,General Fitness,64,Non-Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,119,35,32,44,5,48,1.0,14.0,467,81,8,0.4,349,General Fitness,75,Non-Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,679,25,6,28,5,142,0.9,45.0,364,243,9,1.1,311,General Fitness,43,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,662,13,23,13,2,135,1.4,11.0,230,148,27,1.2,101,General Fitness,56,Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,351,51,16,15,1,284,1.8,29.0,373,186,24,2.0,184,General Fitness,35,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,381,74,4,42,8,227,4.0,78.0,126,219,35,1.3,284,General Fitness,26,Non-Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,534,17,10,9,6,218,5.4,16.0,416,166,28,0.1,253,General Fitness,83,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,204,72,39,41,6,60,3.7,25.0,268,227,34,1.0,124,General Fitness,72,Non-Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,508,50,2,4,1,95,0.8,45.0,315,238,9,0.6,360,General Fitness,69,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,536,43,5,19,6,120,3.3,50.0,373,131,30,0.9,156,General Fitness,84,Non-Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,621,63,11,15,1,202,2.3,59.0,204,140,21,1.3,368,General Fitness,8,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,438,31,29,28,5,240,3.8,68.0,424,97,6,1.9,166,General Fitness,63,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,609,18,15,18,1,235,5.1,11.0,455,151,36,1.0,119,General Fitness,17,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,127,35,33,28,9,126,0.5,50.0,106,60,11,1.0,176,General Fitness,76,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,165,31,9,36,3,85,3.7,42.0,454,198,15,0.1,170,General Fitness,78,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,650,34,23,33,9,143,3.9,14.0,473,78,38,1.1,386,General Fitness,9,Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,417,67,22,33,7,289,2.3,63.0,211,107,26,0.3,320,General Fitness,34,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,501,36,30,2,2,93,2.1,72.0,112,111,34,0.2,392,General Fitness,43,Non-Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,652,34,29,38,5,139,2.3,54.0,244,209,34,1.1,385,General Fitness,55,Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,278,22,25,45,3,263,2.3,70.0,478,237,38,0.1,271,General Fitness,61,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,506,49,28,3,4,174,0.8,32.0,172,230,21,0.9,122,General Fitness,58,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,477,27,18,40,8,213,5.6,28.0,279,250,7,1.5,196,General Fitness,56,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,395,50,39,15,1,38,5.6,19.0,226,66,12,0.2,186,General Fitness,10,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,528,38,31,43,2,147,1.6,61.0,377,115,33,0.6,367,General Fitness,14,Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,699,16,15,12,5,244,4.9,76.0,435,202,22,1.2,198,General Fitness,71,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,299,47,33,23,7,130,3.7,77.0,449,88,6,0.0,146,General Fitness,5,Veg,General Fitness,No
+Egg Curry,Non-Vegetarian,Lunch/Dinner,North Indian,317,73,12,21,5,126,0.7,60.0,105,188,28,0.0,297,General Fitness,59,Non-Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,652,69,39,17,10,256,4.5,47.0,475,200,8,1.7,155,General Fitness,9,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,350,32,15,14,5,221,1.7,68.0,411,156,24,1.3,110,General Fitness,77,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,189,75,6,16,8,53,3.3,74.0,362,192,14,0.2,354,General Fitness,43,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,524,20,16,20,8,296,3.9,58.0,473,246,20,1.5,114,General Fitness,86,Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,331,76,29,6,4,139,2.3,30.0,255,75,38,0.4,309,General Fitness,90,Veg,General Fitness,No
+Biryani,Non-Vegetarian,Lunch/Dinner,Hyderabadi,537,31,14,33,10,221,3.5,70.0,365,74,14,1.0,176,General Fitness,60,Non-Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,307,76,34,40,9,87,5.0,48.0,169,140,18,0.4,226,General Fitness,46,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,325,53,32,8,2,44,3.3,68.0,249,82,5,0.1,287,General Fitness,19,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,239,77,40,17,4,204,3.4,62.0,349,131,34,0.7,148,General Fitness,29,Veg,General Fitness,No
+Rasmalai,Vegetarian,Dessert,East Indian,521,57,27,41,2,228,1.8,79.0,411,80,21,1.6,207,General Fitness,57,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,191,53,31,26,3,198,3.4,56.0,162,57,14,0.6,139,General Fitness,65,Veg,General Fitness,No
+Biryani,Non-Vegetarian,Lunch/Dinner,Hyderabadi,486,76,30,21,8,296,5.6,56.0,476,115,30,1.2,164,General Fitness,48,Non-Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,530,38,20,36,8,175,1.0,73.0,345,227,40,1.7,297,General Fitness,90,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,199,40,8,32,3,207,3.8,17.0,302,190,22,0.6,149,General Fitness,46,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,387,18,37,43,9,57,3.3,29.0,399,100,29,1.4,384,General Fitness,40,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,301,77,39,12,2,132,2.7,67.0,470,86,12,1.8,192,General Fitness,50,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,400,80,10,17,2,128,2.7,18.0,483,192,13,1.6,329,General Fitness,7,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,683,30,14,46,1,101,4.5,65.0,396,210,30,0.7,393,General Fitness,35,Non-Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,342,22,24,10,9,241,1.5,13.0,467,85,33,1.7,170,General Fitness,59,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,515,57,10,5,2,187,3.0,78.0,331,205,32,1.1,275,General Fitness,36,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,648,25,4,3,1,57,3.3,46.0,398,196,19,1.9,224,General Fitness,54,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,139,10,24,2,10,79,1.0,73.0,280,195,10,1.4,235,General Fitness,11,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,630,66,38,47,7,251,2.7,24.0,372,216,18,0.1,307,General Fitness,28,Non-Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,427,39,33,19,9,198,2.9,49.0,146,97,32,0.6,150,General Fitness,37,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,159,57,32,1,2,249,5.1,17.0,108,182,31,1.6,114,General Fitness,65,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,519,26,12,40,9,276,2.0,62.0,153,218,37,0.5,218,General Fitness,32,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,599,26,31,7,1,269,5.2,61.0,195,181,11,0.6,230,General Fitness,10,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,165,76,28,25,8,222,5.2,44.0,495,60,38,1.6,124,General Fitness,74,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,668,59,21,3,6,190,5.9,14.0,343,177,26,1.0,152,General Fitness,86,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,153,43,30,30,6,212,2.6,40.0,480,70,9,1.4,218,General Fitness,30,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,692,42,14,5,10,34,4.8,80.0,364,181,38,0.3,325,General Fitness,55,Non-Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,164,34,20,22,1,100,5.1,19.0,433,139,16,1.5,385,General Fitness,64,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,228,65,3,7,5,157,2.8,21.0,228,108,34,0.9,271,General Fitness,14,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,101,72,26,35,9,78,0.7,23.0,440,244,16,0.0,288,General Fitness,53,Non-Veg,General Fitness,No
+Paratha,Vegetarian,Breakfast,North Indian,327,23,34,26,6,67,5.1,63.0,489,108,40,0.5,186,General Fitness,17,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,136,64,16,25,1,44,1.9,79.0,181,164,32,1.9,141,General Fitness,21,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,604,55,6,7,8,31,3.8,17.0,189,245,39,0.1,252,General Fitness,28,Veg,General Fitness,No
+Egg Curry,Non-Vegetarian,Lunch/Dinner,North Indian,683,46,32,28,5,285,2.9,58.0,135,200,8,1.0,371,General Fitness,31,Non-Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,307,26,34,24,2,257,5.4,36.0,169,79,32,0.1,110,General Fitness,76,Veg,General Fitness,No
+Rasmalai,Vegetarian,Dessert,East Indian,139,34,13,7,6,213,1.1,33.0,113,84,36,0.6,133,General Fitness,77,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,480,65,19,5,10,211,1.4,67.0,209,233,38,0.1,155,General Fitness,60,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,160,43,18,22,8,49,3.1,32.0,463,141,35,1.2,307,General Fitness,38,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,212,51,26,15,10,162,0.8,26.0,384,94,29,1.7,166,General Fitness,78,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,278,25,27,10,2,135,2.8,63.0,132,53,23,1.4,270,General Fitness,54,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,465,66,34,12,4,100,2.5,15.0,238,195,13,1.0,159,General Fitness,17,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,291,13,30,48,3,22,2.8,49.0,382,79,11,1.8,177,General Fitness,41,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,513,21,28,20,9,236,3.8,20.0,247,211,22,1.7,211,General Fitness,36,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,267,68,5,42,9,247,4.0,37.0,355,245,16,0.6,250,General Fitness,47,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,224,14,9,32,1,227,2.6,17.0,210,212,35,1.4,100,General Fitness,50,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,570,80,27,34,7,122,2.6,24.0,104,246,18,0.8,187,General Fitness,51,Veg,General Fitness,No
+Gulab Jamun,Vegetarian,Dessert,North Indian,261,30,29,21,4,156,4.3,66.0,324,184,21,0.6,200,General Fitness,5,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,225,51,22,42,9,48,3.1,51.0,166,67,9,0.5,322,General Fitness,59,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,624,20,7,31,9,175,1.9,25.0,325,183,28,0.5,245,General Fitness,42,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,217,56,29,15,10,265,2.3,78.0,422,220,10,1.6,265,General Fitness,24,Non-Veg,General Fitness,No
+Biryani,Non-Vegetarian,Lunch/Dinner,Hyderabadi,149,74,36,17,4,62,4.5,43.0,319,173,35,0.9,268,General Fitness,9,Non-Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,648,29,12,12,7,284,5.1,25.0,157,72,27,1.0,100,General Fitness,9,Non-Veg,General Fitness,No
+Kadhi Pakora,Vegetarian,Lunch/Dinner,North Indian,150,41,5,6,9,68,3.8,27.0,333,218,35,0.7,268,General Fitness,23,Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,237,33,15,17,3,112,5.2,55.0,477,97,10,1.4,340,General Fitness,87,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,617,44,34,26,3,197,0.9,47.0,359,168,40,1.9,251,General Fitness,60,Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,167,66,31,27,8,149,2.6,69.0,487,210,27,0.1,385,General Fitness,12,Veg,General Fitness,No
+Kadhi Pakora,Vegetarian,Lunch/Dinner,North Indian,215,27,30,32,4,197,3.1,68.0,114,162,35,1.4,276,General Fitness,76,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,119,30,6,5,7,277,3.1,45.0,215,220,18,1.7,171,General Fitness,33,Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,517,47,29,17,10,42,4.1,30.0,259,195,19,0.3,323,General Fitness,43,Veg,General Fitness,No
+Paratha,Vegetarian,Breakfast,North Indian,313,37,40,7,4,278,4.8,65.0,484,134,8,0.8,154,General Fitness,44,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,689,65,34,22,9,123,1.6,48.0,100,244,31,1.0,325,General Fitness,9,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,322,32,24,23,8,288,2.3,74.0,195,194,34,1.9,139,General Fitness,25,Non-Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,340,37,19,29,2,138,1.1,22.0,487,102,29,0.6,280,General Fitness,72,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,158,53,33,37,1,156,3.2,15.0,195,91,36,1.1,113,General Fitness,42,Non-Veg,General Fitness,No
+Rasmalai,Vegetarian,Dessert,East Indian,105,36,2,10,2,152,2.6,54.0,499,119,23,0.6,357,General Fitness,73,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,489,13,6,8,9,86,3.4,34.0,138,50,6,0.9,154,General Fitness,84,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,532,65,31,46,6,123,3.7,68.0,157,56,12,1.7,321,General Fitness,29,Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,112,46,40,20,5,83,0.9,46.0,184,103,17,1.6,368,General Fitness,23,Veg,General Fitness,No
+Gulab Jamun,Vegetarian,Dessert,North Indian,429,56,9,6,1,266,0.7,10.0,292,84,13,1.4,214,General Fitness,6,Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,646,77,13,15,10,207,4.7,10.0,178,135,39,1.0,193,General Fitness,61,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,428,24,27,18,9,159,1.3,41.0,161,119,28,0.7,353,General Fitness,66,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,148,30,24,3,4,193,4.0,40.0,377,130,31,1.8,325,General Fitness,54,Non-Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,540,42,27,26,1,258,3.0,70.0,312,190,30,1.4,359,General Fitness,37,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,678,67,33,21,10,199,1.5,25.0,317,238,18,1.4,377,General Fitness,86,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,213,14,25,15,1,170,3.3,76.0,273,195,16,0.6,141,General Fitness,44,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,107,51,30,2,3,158,4.0,11.0,125,142,22,0.8,128,General Fitness,28,Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,479,18,37,9,9,33,1.6,46.0,163,95,17,1.4,209,General Fitness,77,Veg,General Fitness,No
+Gulab Jamun,Vegetarian,Dessert,North Indian,392,51,11,38,6,256,4.3,64.0,108,119,27,0.9,142,General Fitness,10,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,508,80,14,19,1,130,5.0,46.0,366,75,39,0.7,153,General Fitness,90,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,558,14,18,3,5,103,5.4,73.0,486,154,8,1.4,370,General Fitness,55,Non-Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,535,30,34,12,4,75,4.8,37.0,447,127,29,0.7,383,General Fitness,88,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,462,60,24,1,10,238,0.9,28.0,336,149,16,0.7,101,General Fitness,33,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,211,24,6,33,9,61,0.7,42.0,209,113,33,1.5,354,General Fitness,30,Veg,General Fitness,No
+Egg Curry,Non-Vegetarian,Lunch/Dinner,North Indian,377,59,28,16,4,192,3.5,10.0,199,129,37,0.9,101,General Fitness,56,Non-Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,413,34,24,44,7,23,3.2,39.0,395,100,5,1.5,127,General Fitness,5,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,230,47,7,22,10,269,1.8,30.0,396,200,35,0.1,354,General Fitness,28,Non-Veg,General Fitness,No
+Egg Curry,Non-Vegetarian,Lunch/Dinner,North Indian,599,72,21,12,10,146,4.8,23.0,234,211,5,1.9,348,General Fitness,63,Non-Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,555,46,40,16,5,34,1.4,73.0,246,81,5,0.3,245,General Fitness,82,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,279,43,3,10,1,279,5.1,10.0,407,203,21,1.6,318,General Fitness,24,Non-Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,423,21,7,36,7,300,5.5,63.0,221,162,31,2.0,141,General Fitness,7,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,692,38,35,38,8,223,2.9,77.0,202,79,31,1.6,324,General Fitness,44,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,399,77,12,27,2,110,2.9,37.0,147,180,33,1.9,334,General Fitness,43,Veg,General Fitness,No
+Egg Curry,Non-Vegetarian,Lunch/Dinner,North Indian,267,55,5,24,10,196,4.4,52.0,344,223,22,1.9,227,General Fitness,20,Non-Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,669,44,9,46,4,249,0.7,19.0,349,83,33,0.1,222,General Fitness,42,Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,352,58,34,46,7,227,3.8,40.0,417,66,22,0.1,244,General Fitness,49,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,306,46,22,48,1,266,5.2,20.0,392,173,34,1.1,211,General Fitness,46,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,449,78,33,30,9,177,6.0,20.0,305,208,9,1.8,102,General Fitness,80,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,546,26,26,29,4,211,0.9,59.0,208,130,5,2.0,210,General Fitness,36,Veg,General Fitness,No
+Gulab Jamun,Vegetarian,Dessert,North Indian,471,24,7,6,3,51,2.0,75.0,193,162,14,1.6,331,General Fitness,90,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,494,48,16,31,1,56,0.7,54.0,408,99,28,1.2,386,General Fitness,5,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,599,33,34,9,8,91,3.5,12.0,161,220,31,1.3,107,General Fitness,13,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,664,27,24,11,3,239,3.9,41.0,326,144,5,1.4,145,General Fitness,57,Veg,General Fitness,No
+Paratha,Vegetarian,Breakfast,North Indian,249,29,22,4,5,129,1.4,54.0,244,155,36,1.0,164,General Fitness,11,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,459,11,28,6,1,158,4.7,36.0,468,227,5,0.3,207,General Fitness,85,Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,589,18,29,33,2,263,0.9,30.0,109,187,21,0.5,187,General Fitness,69,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,324,12,33,36,7,222,3.4,45.0,469,64,18,1.1,321,General Fitness,10,Non-Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,621,49,26,22,3,83,4.5,40.0,389,226,11,1.4,244,General Fitness,80,Non-Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,163,50,2,31,1,196,5.4,28.0,143,203,39,0.8,321,General Fitness,54,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,470,80,5,46,2,284,4.8,47.0,288,250,21,0.3,287,General Fitness,17,Veg,General Fitness,No
+Paratha,Vegetarian,Breakfast,North Indian,521,23,38,6,5,95,3.1,21.0,293,102,31,1.7,113,General Fitness,49,Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,698,51,35,9,7,145,2.6,53.0,453,145,28,0.1,191,General Fitness,85,Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,587,64,22,26,6,136,3.5,63.0,351,224,21,1.3,388,General Fitness,70,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,221,52,30,28,8,98,3.4,42.0,138,101,11,1.9,121,General Fitness,54,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,682,32,24,39,7,191,0.9,12.0,276,110,27,1.4,233,General Fitness,27,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,416,80,20,39,4,121,3.5,36.0,402,232,21,0.4,251,General Fitness,17,Non-Veg,General Fitness,No
+Paratha,Vegetarian,Breakfast,North Indian,317,63,36,5,7,136,0.6,74.0,248,185,22,0.5,247,General Fitness,52,Veg,General Fitness,No
+Kadhi Pakora,Vegetarian,Lunch/Dinner,North Indian,355,16,40,32,6,77,1.9,57.0,432,168,27,1.6,265,General Fitness,61,Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,203,44,21,39,6,249,4.6,32.0,171,75,17,0.4,248,General Fitness,90,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,244,15,13,27,1,285,5.3,50.0,429,181,35,0.1,376,General Fitness,73,Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,533,12,33,19,2,199,3.2,15.0,343,201,20,1.4,268,General Fitness,56,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,314,61,5,22,7,280,1.3,32.0,158,208,20,0.7,273,General Fitness,65,Veg,General Fitness,No
+Kadhi Pakora,Vegetarian,Lunch/Dinner,North Indian,625,42,3,8,6,96,3.6,79.0,160,109,31,1.6,374,General Fitness,57,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,132,60,9,49,5,252,1.2,42.0,446,247,31,0.1,333,General Fitness,36,Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,141,79,30,39,3,272,5.7,69.0,422,68,9,1.3,338,General Fitness,62,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,303,27,24,26,7,176,4.4,13.0,417,216,6,0.8,132,General Fitness,9,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,190,23,27,39,1,120,3.6,62.0,398,229,7,0.0,320,General Fitness,43,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,440,76,11,42,3,81,3.6,28.0,408,240,17,1.5,396,General Fitness,19,Veg,General Fitness,No
+Gulab Jamun,Vegetarian,Dessert,North Indian,257,64,24,39,4,61,5.5,80.0,234,100,30,1.0,187,General Fitness,77,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,552,29,22,5,5,41,1.6,41.0,288,123,12,0.7,151,General Fitness,65,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,640,48,27,30,3,92,2.8,32.0,467,238,22,1.2,229,General Fitness,58,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,150,80,28,48,8,121,2.3,42.0,348,142,37,2.0,385,General Fitness,34,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,147,20,40,47,4,225,1.2,59.0,169,225,9,1.6,195,General Fitness,82,Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,200,57,3,37,3,209,0.8,59.0,390,163,28,1.9,277,General Fitness,65,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,463,13,15,18,5,276,1.8,43.0,365,134,39,1.0,189,General Fitness,52,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,177,23,30,49,2,175,0.6,60.0,117,150,20,1.6,385,General Fitness,77,Non-Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,125,64,35,39,8,248,4.1,76.0,440,221,38,1.6,249,General Fitness,24,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,612,63,7,28,5,163,2.9,30.0,197,186,31,2.0,383,General Fitness,8,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,674,46,23,13,6,153,1.7,44.0,415,128,40,0.2,306,General Fitness,13,Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,616,80,9,28,1,276,5.5,64.0,419,134,19,1.4,213,General Fitness,28,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,177,42,29,18,7,134,1.3,49.0,419,152,27,0.1,237,General Fitness,53,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,123,57,20,34,9,200,3.1,47.0,351,100,6,0.3,104,General Fitness,15,Veg,General Fitness,No
+Gulab Jamun,Vegetarian,Dessert,North Indian,361,29,14,6,2,131,4.6,29.0,121,204,30,0.0,351,General Fitness,21,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,633,21,32,39,7,198,1.3,43.0,249,171,9,1.2,389,General Fitness,65,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,563,78,21,35,3,96,4.7,18.0,107,176,21,1.7,219,General Fitness,84,Non-Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,278,80,26,39,9,211,0.9,29.0,179,74,38,0.7,212,General Fitness,55,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,327,31,26,30,6,158,2.2,73.0,325,209,13,0.7,109,General Fitness,89,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,564,31,34,31,3,188,3.2,72.0,138,204,7,0.7,158,General Fitness,10,Veg,General Fitness,No
+Rasmalai,Vegetarian,Dessert,East Indian,250,40,5,25,10,127,4.9,68.0,496,139,35,0.1,343,General Fitness,30,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,487,26,40,45,6,244,2.5,15.0,414,227,31,0.1,394,General Fitness,55,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,547,12,19,21,8,227,2.6,34.0,380,212,14,1.8,220,General Fitness,46,Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,554,16,35,32,6,231,4.9,49.0,306,103,24,0.3,244,General Fitness,47,Veg,General Fitness,No
+Gulab Jamun,Vegetarian,Dessert,North Indian,171,56,23,41,5,167,5.8,47.0,117,59,34,0.8,244,General Fitness,70,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,317,30,28,23,5,254,3.0,43.0,108,60,35,0.6,141,General Fitness,49,Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,592,49,30,13,8,156,3.4,69.0,409,226,9,1.9,140,General Fitness,8,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,600,62,30,14,8,152,5.4,17.0,411,141,38,1.0,397,General Fitness,63,Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,370,58,39,26,7,35,5.2,19.0,113,240,14,1.0,252,General Fitness,15,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,131,72,23,16,5,281,4.8,75.0,313,225,34,0.8,207,General Fitness,74,Non-Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,307,57,12,45,7,68,5.3,64.0,290,177,5,0.7,221,General Fitness,72,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,251,16,20,27,6,254,3.5,21.0,469,101,32,1.1,366,General Fitness,41,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,261,21,18,4,2,92,2.2,77.0,213,96,9,1.0,315,General Fitness,20,Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,691,21,38,27,8,201,3.3,69.0,234,201,20,1.8,398,General Fitness,9,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,455,37,8,43,4,262,3.6,55.0,299,89,12,1.5,305,General Fitness,60,Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,295,11,15,7,2,31,4.5,66.0,162,174,29,0.4,219,General Fitness,47,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,621,34,11,40,6,274,4.0,26.0,238,176,33,0.5,164,General Fitness,56,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,150,26,35,33,3,228,3.4,29.0,178,125,37,0.3,124,General Fitness,7,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,598,49,10,36,4,269,2.0,38.0,263,114,28,1.1,332,General Fitness,84,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,683,27,25,12,5,172,4.0,10.0,123,59,16,1.6,366,General Fitness,24,Non-Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,250,52,7,31,1,117,1.7,39.0,126,189,25,1.8,246,General Fitness,90,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,231,26,12,11,2,195,3.5,79.0,258,180,23,1.0,143,General Fitness,20,Veg,General Fitness,No
+Paratha,Vegetarian,Breakfast,North Indian,147,38,36,41,3,123,1.6,12.0,355,234,23,0.2,268,General Fitness,84,Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,671,61,7,1,2,198,4.1,10.0,239,154,28,1.7,204,General Fitness,60,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,302,69,21,12,3,207,1.2,22.0,289,213,33,0.8,294,General Fitness,11,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,280,63,35,27,7,120,5.6,38.0,319,138,10,0.2,216,General Fitness,23,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,159,21,32,7,4,219,2.9,40.0,197,233,29,0.3,120,General Fitness,31,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,393,80,37,6,9,178,5.5,77.0,382,175,24,1.6,269,General Fitness,33,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,401,15,25,24,7,284,4.2,14.0,200,177,12,0.5,195,General Fitness,76,Non-Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,327,22,2,46,2,222,2.5,74.0,312,51,37,0.0,122,General Fitness,6,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,429,58,32,17,8,78,1.7,17.0,166,79,17,1.6,169,General Fitness,81,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,309,38,7,28,5,208,5.7,35.0,113,76,6,1.7,303,General Fitness,19,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,359,12,30,32,10,206,4.9,14.0,156,120,18,2.0,296,General Fitness,29,Non-Veg,General Fitness,No
+Egg Curry,Non-Vegetarian,Lunch/Dinner,North Indian,251,57,5,21,3,283,3.7,42.0,205,59,31,1.2,323,General Fitness,31,Non-Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,347,12,4,25,3,102,4.5,11.0,423,170,13,1.9,220,General Fitness,6,Non-Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,678,14,35,2,6,218,2.5,73.0,328,107,34,2.0,259,General Fitness,70,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,577,18,15,5,4,107,5.1,57.0,126,243,27,0.6,372,General Fitness,78,Non-Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,321,44,28,3,5,125,5.4,74.0,238,99,39,0.1,337,General Fitness,50,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,159,26,29,26,1,49,5.6,52.0,376,85,25,0.9,203,General Fitness,90,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,546,24,21,29,1,239,3.5,14.0,479,111,39,1.2,310,General Fitness,49,Non-Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,516,71,35,14,5,164,4.0,41.0,315,63,10,0.5,113,General Fitness,61,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,674,49,18,12,1,39,3.0,46.0,369,224,39,1.1,275,General Fitness,18,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,602,19,22,20,1,287,3.8,23.0,250,196,22,1.7,364,General Fitness,36,Veg,General Fitness,No
+Biryani,Non-Vegetarian,Lunch/Dinner,Hyderabadi,203,39,12,48,9,251,5.9,45.0,491,207,26,1.5,383,General Fitness,51,Non-Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,509,77,7,21,8,277,5.3,10.0,424,79,40,1.0,154,General Fitness,11,Veg,General Fitness,No
+Dal Makhani,Vegetarian,Lunch/Dinner,North Indian,198,66,40,2,6,185,5.0,43.0,486,166,16,1.3,361,General Fitness,57,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,506,57,4,33,7,64,1.9,38.0,274,210,9,1.3,358,General Fitness,75,Non-Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,202,62,18,44,9,63,2.1,66.0,490,206,23,1.9,397,General Fitness,33,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,219,27,40,1,7,259,4.1,66.0,378,98,8,1.0,319,General Fitness,75,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,545,17,5,3,3,78,5.0,45.0,419,117,5,0.2,380,General Fitness,76,Veg,General Fitness,No
+Dhokla,Vegetarian,Snack/Breakfast,West Indian,250,23,23,50,7,238,1.7,55.0,351,101,28,1.2,306,General Fitness,38,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,393,11,19,50,8,24,1.9,48.0,379,103,24,1.2,180,General Fitness,84,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,373,59,17,11,8,237,5.8,73.0,314,68,24,2.0,149,General Fitness,48,Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,581,34,21,46,9,189,0.5,40.0,221,200,24,0.6,397,General Fitness,88,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,467,76,39,43,2,166,5.7,48.0,135,109,26,0.7,206,General Fitness,26,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,700,13,8,6,7,168,3.5,51.0,316,179,39,0.7,179,General Fitness,81,Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,621,80,36,17,5,192,1.2,75.0,343,194,9,1.6,347,General Fitness,68,Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,199,13,10,42,4,161,1.7,32.0,137,79,20,1.4,306,General Fitness,6,Veg,General Fitness,No
+Pani Puri,Vegetarian,Snack,Street Food,612,31,19,22,9,168,5.7,75.0,346,197,26,0.0,275,General Fitness,89,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,292,55,13,26,10,131,5.7,45.0,392,225,18,1.1,350,General Fitness,22,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,386,40,19,5,9,260,3.5,20.0,217,198,37,0.3,223,General Fitness,75,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,675,38,21,23,6,49,5.9,23.0,223,85,25,1.7,388,General Fitness,54,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,298,55,17,7,8,94,1.3,80.0,222,238,19,1.1,383,General Fitness,76,Veg,General Fitness,No
+Bhindi Masala,Vegetarian,Lunch/Dinner,North Indian,326,42,12,31,4,74,5.0,66.0,380,143,38,0.6,232,General Fitness,8,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,666,37,10,38,3,293,1.8,68.0,497,55,5,0.7,150,General Fitness,7,Non-Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,167,55,38,44,3,166,1.6,44.0,493,130,23,0.1,234,General Fitness,27,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,482,46,20,3,7,39,3.0,59.0,398,51,22,0.9,336,General Fitness,21,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,294,67,21,12,10,125,4.6,60.0,496,231,27,0.4,267,General Fitness,48,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,531,41,5,27,5,191,1.8,65.0,500,55,11,0.9,159,General Fitness,28,Non-Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,610,56,16,40,6,215,3.7,68.0,495,150,39,0.1,183,General Fitness,42,Veg,General Fitness,No
+Palak Paneer,Vegetarian,Lunch/Dinner,North Indian,394,45,2,9,2,187,5.6,48.0,338,203,35,0.5,213,General Fitness,11,Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,360,38,30,28,7,33,1.0,51.0,323,113,22,1.1,335,General Fitness,63,Veg,General Fitness,No
+Upma,Vegetarian,Breakfast,South Indian,453,42,5,18,3,75,1.7,45.0,208,247,29,1.8,107,General Fitness,36,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,309,11,34,16,9,98,1.0,60.0,209,145,24,1.5,394,General Fitness,87,Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,492,30,15,22,7,272,2.0,20.0,175,234,5,0.6,365,General Fitness,8,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,499,65,5,23,7,216,1.1,23.0,115,245,14,1.6,284,General Fitness,16,Veg,General Fitness,No
+Vegetable Pulao,Vegetarian,Lunch/Dinner,North Indian,314,76,33,3,1,40,0.7,65.0,393,188,35,1.5,350,General Fitness,85,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,192,34,19,26,9,55,4.2,41.0,320,167,33,0.9,118,General Fitness,16,Non-Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,621,80,25,50,9,51,3.6,32.0,429,52,14,0.6,197,General Fitness,86,Veg,General Fitness,No
+Chole Bhature,Vegetarian,Breakfast/Lunch,North Indian,400,41,4,48,9,251,3.8,47.0,132,84,16,0.6,158,General Fitness,66,Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,667,41,13,45,10,197,2.0,35.0,377,196,14,1.4,142,General Fitness,36,Veg,General Fitness,No
+Matar Paneer,Vegetarian,Lunch/Dinner,North Indian,359,18,10,37,9,104,0.9,40.0,398,235,31,0.1,144,General Fitness,57,Veg,General Fitness,No
+Coconut Water,Vegetarian,Beverage,South Indian,407,80,30,19,8,300,1.1,22.0,253,173,29,1.9,377,General Fitness,46,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,239,78,3,31,2,122,2.3,50.0,219,108,27,1.4,204,General Fitness,73,Veg,General Fitness,No
+Egg Curry,Non-Vegetarian,Lunch/Dinner,North Indian,539,37,40,21,3,41,0.9,34.0,115,192,11,0.4,261,General Fitness,11,Non-Veg,General Fitness,No
+Pav Bhaji,Vegetarian,Snack/Dinner,West Indian,694,30,32,23,10,287,1.3,46.0,354,231,35,0.3,356,General Fitness,17,Veg,General Fitness,No
+Aloo Paratha,Vegetarian,Breakfast,North Indian,106,26,11,48,2,210,1.0,33.0,248,121,27,1.6,201,General Fitness,48,Veg,General Fitness,No
+Mutton Korma,Non-Vegetarian,Lunch/Dinner,Mughlai,396,71,24,24,3,300,3.3,49.0,256,105,16,0.3,220,General Fitness,24,Non-Veg,General Fitness,No
+Biryani,Non-Vegetarian,Lunch/Dinner,Hyderabadi,607,20,2,42,1,90,5.6,40.0,351,96,22,0.4,173,General Fitness,35,Non-Veg,General Fitness,No
+Misal Pav,Vegetarian,Breakfast,West Indian,400,24,40,49,7,199,3.4,44.0,400,209,7,0.2,167,General Fitness,86,Veg,General Fitness,No
+Butter Chicken,Non-Vegetarian,Lunch/Dinner,North Indian,593,40,29,36,7,165,2.8,36.0,337,57,21,0.6,137,General Fitness,10,Non-Veg,General Fitness,No
+Dosa,Vegetarian,Breakfast,South Indian,302,63,17,42,1,233,4.9,41.0,373,51,18,1.1,231,General Fitness,36,Veg,General Fitness,No
+Sambar,Vegetarian,Lunch/Dinner,South Indian,671,76,8,29,1,51,1.2,80.0,423,227,13,1.4,178,General Fitness,10,Veg,General Fitness,No
+Paratha,Vegetarian,Breakfast,North Indian,176,51,19,11,6,141,0.6,15.0,384,130,40,1.3,285,General Fitness,65,Veg,General Fitness,No
+Masala Chai,Vegetarian,Beverage,North Indian,197,39,21,48,8,209,4.4,74.0,130,198,34,1.6,143,General Fitness,57,Veg,General Fitness,No
+Rasmalai,Vegetarian,Dessert,East Indian,163,47,25,23,6,100,4.4,19.0,269,95,40,1.7,309,General Fitness,37,Veg,General Fitness,No
+Thepla,Vegetarian,Breakfast,Gujrati,410,18,35,9,9,236,1.6,73.0,235,97,18,1.3,225,General Fitness,58,Veg,General Fitness,No
+Idli,Vegetarian,Breakfast,South Indian,621,35,22,38,2,119,2.0,46.0,195,234,12,1.3,236,General Fitness,44,Veg,General Fitness,No
+Lassi,Vegetarian,Beverage,North Indian,218,49,2,31,7,111,2.7,62.0,306,142,18,1.4,248,General Fitness,43,Veg,General Fitness,No
+Fish Curry,Non-Vegetarian,Lunch/Dinner,Coastal,449,12,26,27,2,269,1.4,77.0,441,244,35,2.0,134,General Fitness,79,Non-Veg,General Fitness,No
+Roti,Vegetarian,Lunch/Dinner,North Indian,348,63,16,45,8,128,4.6,37.0,373,217,23,0.9,181,General Fitness,58,Veg,General Fitness,No
+Muesli with Greek Yogurt,Vegetarian,Snacks,Western,350,50,18,7,6,200,2.0,1.5,120,50,10,150.0,200,General Fitness,5,Veg,General Fitness,No
+Quinoa Salad with Chickpeas,Vegetarian,Lunch,Fusion,400,55,20,8,7,220,3.0,1.8,150,60,12,170.0,250,General Fitness,10,Veg,General Fitness,No
+Grilled Salmon with Vegetables,Non-Vegetarian,Dinner,Western,450,20,35,15,5,250,5.0,2.0,200,80,15,200.0,300,General Fitness,15,Non-Veg,General Fitness,No
+Boiled Eggs with Nuts,Non-Vegetarian,Snacks,Western,320,10,25,18,4,180,2.0,1.2,100,40,8,120.0,150,General Fitness,5,Non-Veg,General Fitness,No
+Cottage Cheese Wrap,Vegetarian,Lunch,Fusion,380,45,22,10,6,210,3.0,1.6,140,55,11,160.0,220,General Fitness,8,Veg,General Fitness,No
+Whey Protein Smoothie,Vegetarian,Snacks,Western,300,20,30,5,2,100,4.0,2.0,180,70,14,130.0,170,General Fitness,3,Veg,General Fitness,No
+Brown Rice with Stir-Fried Tofu,Vegetarian,Dinner,Asian,420,55,24,10,8,230,3.0,1.7,160,65,13,180.0,230,General Fitness,12,Veg,General Fitness,No
+Chia Seed Pudding,Vegetarian,Snacks,Western,250,30,10,12,10,190,5.0,2.2,130,50,9,140.0,200,General Fitness,5,Veg,General Fitness,No
+Tandoori Chicken with Roti,Non-Vegetarian,Dinner,North Indian,480,50,40,12,6,280,2.0,1.4,190,75,12,210.0,270,General Fitness,20,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,420,50,28,15,6,230,3.0,1.7,160,55,10,180.0,240,General Fitness,10,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,313,24,28,5,2,146,7.0,5.5,107,45,10,114.0,176,Weight Loss,8,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,473,43,40,5,15,251,12.0,1.8,158,72,14,201.0,270,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,13,34,20,0,168,1.0,-4.7,99,45,15,131.0,206,Weight Loss,1,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,454,51,49,17,9,265,-6.0,-5.2,187,67,5,199.0,277,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,410,27,49,16,9,208,-3.0,-8.0,140,57,1,171.0,237,Muscle Gain,12,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,303,22,40,9,16,202,14.0,-4.9,136,60,19,182.0,253,General Fitness,3,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,306,22,46,5,13,201,8.0,0.10000000000000009,146,51,14,171.0,255,General Fitness,11,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,299,16,50,17,11,219,6.0,9.1,150,48,5,178.0,246,General Fitness,-6,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,390,27,59,17,-1,200,4.0,-6.3,131,58,9,160.0,218,Muscle Gain,9,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,308,26,44,12,15,216,10.0,11.1,134,48,2,177.0,249,General Fitness,7,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,386,29,49,16,5,200,-5.0,7.7,124,52,15,166.0,230,Muscle Gain,7,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,327,20,28,11,-3,142,13.0,3.5,108,43,12,121.0,190,Weight Loss,11,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,40,46,4,-2,254,2.0,1.8,167,73,8,206.0,276,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,419,28,65,20,4,203,4.0,6.0,139,60,0,177.0,236,Muscle Gain,10,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,444,35,64,22,8,269,5.0,-5.2,182,67,17,197.0,278,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,297,28,44,14,10,220,-2.0,2.1,145,49,13,188.0,246,General Fitness,-4,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,443,37,52,5,9,261,-1.0,0.8,187,73,21,194.0,282,Muscle Gain,9,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,387,36,53,12,3,195,5.0,3.7,134,50,15,150.0,214,Muscle Gain,11,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,327,17,12,3,13,144,13.0,8.5,94,50,8,111.0,176,Weight Loss,-4,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,35,50,5,1,204,9.0,2.0,138,51,5,178.0,243,Muscle Gain,14,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,389,39,52,14,11,217,1.0,6.6,159,70,13,160.0,247,Muscle Gain,3,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,397,26,50,4,7,182,-1.0,-2.3,134,60,15,152.0,223,Muscle Gain,12,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,425,31,52,15,4,205,-4.0,-6.0,124,50,7,171.0,234,Muscle Gain,9,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,312,32,30,8,6,158,4.0,8.5,106,36,19,129.0,187,Weight Loss,13,Non-Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,307,25,41,19,8,204,1.0,11.1,135,50,14,174.0,249,General Fitness,-1,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,292,18,48,17,9,201,-4.0,-2.9,142,64,0,179.0,259,General Fitness,-2,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,398,23,54,19,10,183,-2.0,4.7,129,69,4,160.0,218,Muscle Gain,13,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,423,53,30,22,9,223,-5.0,4.7,152,62,17,181.0,235,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,465,38,44,9,12,241,-6.0,-1.2,150,79,20,191.0,267,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,27,27,3,2,165,-4.0,3.3,96,46,1,136.0,208,Weight Loss,7,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,34,54,25,16,210,-6.0,7.0,137,52,9,187.0,235,Muscle Gain,6,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,284,22,26,10,8,168,2.0,0.30000000000000004,95,37,2,130.0,203,Weight Loss,1,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,480,29,43,23,14,259,4.0,0.8,155,80,17,210.0,278,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,398,29,46,21,-5,187,5.0,-0.30000000000000004,132,53,19,154.0,223,Muscle Gain,17,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,459,37,58,3,11,266,10.0,1.8,188,64,13,202.0,273,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,383,37,42,22,-1,181,-3.0,-3.3,129,70,13,156.0,219,Muscle Gain,18,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,456,40,49,14,-1,265,10.0,-7.2,177,68,8,201.0,281,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,378,39,47,7,6,219,5.0,-0.3999999999999999,145,66,21,163.0,244,Muscle Gain,7,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,326,19,23,7,9,146,3.0,-4.5,100,43,11,111.0,171,Weight Loss,8,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,275,15,34,17,16,166,-4.0,-8.7,95,44,7,146.0,191,Weight Loss,6,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,393,27,40,2,3,182,-3.0,-7.3,128,61,1,160.0,225,Muscle Gain,10,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,296,21,47,0,-1,202,14.0,-7.9,138,63,18,174.0,251,General Fitness,2,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,477,44,54,8,-1,256,10.0,-6.2,154,79,9,205.0,264,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,428,25,56,15,8,208,3.0,-2.0,120,48,0,185.0,236,Muscle Gain,1,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,42,35,18,11,225,10.0,9.7,153,63,11,176.0,245,Muscle Gain,14,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,412,52,37,23,12,230,-3.0,2.7,168,45,17,172.0,238,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,443,41,53,12,-1,257,11.0,10.8,177,60,14,190.0,270,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,389,37,59,18,15,180,9.0,-7.3,138,59,9,156.0,230,Muscle Gain,16,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,308,12,32,17,15,208,9.0,9.1,144,62,7,182.0,246,General Fitness,6,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,463,29,59,12,16,249,0.0,-4.2,154,75,21,190.0,274,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,289,8,34,17,4,174,3.0,10.3,84,41,15,136.0,191,Weight Loss,-4,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,410,36,50,11,-1,207,3.0,9.0,137,50,15,188.0,239,Muscle Gain,4,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,460,35,61,8,5,259,9.0,-4.2,186,65,7,203.0,283,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,376,26,48,19,13,215,0.0,-3.4,140,65,9,169.0,231,Muscle Gain,5,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,459,52,58,17,12,256,12.0,11.8,190,61,3,191.0,277,Muscle Gain,9,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,298,16,39,19,-3,207,8.0,10.1,138,62,5,190.0,240,General Fitness,10,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,48,54,20,12,257,11.0,11.8,182,69,12,194.0,287,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,388,35,45,5,6,230,-2.0,-4.4,156,57,16,176.0,250,Muscle Gain,2,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,464,41,43,14,-3,246,6.0,-8.2,168,70,5,203.0,276,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,60,19,20,11,228,-5.0,1.7,160,50,11,179.0,250,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,458,35,63,5,5,266,-2.0,6.8,185,68,19,192.0,270,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,373,27,56,1,-4,221,13.0,11.6,144,72,10,173.0,236,Muscle Gain,5,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,311,33,29,2,-5,141,1.0,-8.5,103,52,18,129.0,186,Weight Loss,0,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,36,45,20,17,269,-4.0,-8.2,189,72,22,208.0,282,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,462,35,43,18,-3,252,-7.0,-1.2,164,70,14,210.0,272,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,440,41,56,7,-3,270,14.0,3.8,181,66,21,196.0,275,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,390,36,40,3,-3,189,11.0,0.7,123,68,7,165.0,214,Muscle Gain,-2,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,476,47,55,19,-1,243,5.0,-4.2,163,77,20,199.0,260,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,329,30,10,2,8,152,3.0,-8.5,105,42,0,118.0,173,Weight Loss,4,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,311,16,16,4,8,148,12.0,-4.5,94,49,13,127.0,179,Weight Loss,5,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,418,51,27,22,7,221,0.0,-2.3,150,61,13,170.0,235,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,424,47,23,24,16,234,4.0,-5.3,163,64,17,174.0,233,Muscle Gain,0,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,15,48,7,6,204,9.0,3.1,141,50,4,186.0,245,General Fitness,6,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,312,32,24,10,11,160,8.0,-6.5,90,53,4,126.0,185,Weight Loss,0,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,463,39,60,8,9,251,7.0,10.8,167,66,17,201.0,274,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,397,35,54,17,12,188,9.0,4.7,140,50,12,169.0,212,Muscle Gain,7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,275,21,26,20,15,171,-7.0,4.3,89,41,17,131.0,191,Weight Loss,1,Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,378,20,41,13,11,224,5.0,11.6,148,72,2,162.0,237,Muscle Gain,16,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,372,33,50,7,3,225,-6.0,4.6,144,74,18,161.0,243,Muscle Gain,10,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,290,27,43,8,7,220,1.0,9.1,134,61,14,178.0,253,General Fitness,5,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,419,54,29,6,10,225,13.0,-8.3,166,64,8,172.0,230,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,452,51,58,19,5,263,5.0,1.8,187,71,4,200.0,287,Muscle Gain,23,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,301,26,47,3,-2,220,0.0,1.1,138,60,12,181.0,243,General Fitness,-6,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,424,53,24,24,10,223,-5.0,10.7,151,62,19,187.0,241,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,319,16,16,4,-4,157,10.0,-8.5,99,42,0,119.0,176,Weight Loss,8,Non-Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,379,33,46,20,8,215,12.0,6.6,149,75,16,173.0,236,Muscle Gain,4,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,47,23,12,15,220,4.0,-7.3,159,61,20,185.0,240,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,465,28,46,9,-4,258,7.0,-8.2,159,78,4,190.0,278,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,293,19,43,16,8,207,-5.0,12.1,137,57,13,172.0,260,General Fitness,5,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,303,20,37,8,15,210,13.0,11.1,146,59,10,173.0,258,General Fitness,0,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,382,34,57,8,3,221,4.0,-7.4,152,57,20,170.0,240,Muscle Gain,1,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,322,34,16,9,12,154,-6.0,-7.5,92,53,13,114.0,174,Weight Loss,12,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,283,28,32,19,12,176,11.0,4.3,94,35,10,149.0,190,Weight Loss,15,Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,376,26,48,4,15,229,3.0,-7.4,142,67,11,161.0,238,Muscle Gain,15,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,479,46,53,17,8,243,10.0,-1.2,156,79,7,192.0,267,Muscle Gain,9,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,461,45,52,7,-4,258,2.0,6.8,157,76,16,205.0,266,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,383,31,51,14,2,192,-1.0,9.7,130,62,18,163.0,225,Muscle Gain,1,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,470,47,60,22,-2,256,6.0,4.8,170,67,19,200.0,274,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,473,43,41,10,-2,253,5.0,2.8,150,74,16,191.0,273,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,448,42,65,21,14,267,8.0,-5.2,170,64,17,202.0,272,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,385,26,54,16,-5,210,-5.0,-1.4,158,64,12,175.0,230,Muscle Gain,19,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,386,34,55,11,12,187,-1.0,3.7,130,58,18,160.0,217,Muscle Gain,10,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,458,39,54,17,-3,263,3.0,1.8,180,62,3,191.0,272,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,468,42,40,12,13,240,-4.0,-3.2,163,66,10,196.0,267,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,296,13,47,0,-3,220,10.0,9.1,145,45,1,190.0,240,General Fitness,3,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,382,24,57,8,9,230,-3.0,-4.4,141,65,5,161.0,250,Muscle Gain,3,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,381,36,43,6,14,219,2.0,2.6,159,69,22,172.0,239,Muscle Gain,0,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,440,48,49,16,-2,260,2.0,5.8,176,68,5,199.0,284,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,450,33,57,6,10,258,14.0,1.8,190,61,10,195.0,282,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,386,31,53,16,-4,222,6.0,2.6,140,66,11,160.0,237,Muscle Gain,13,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,458,44,58,8,1,252,-1.0,1.8,183,77,20,203.0,280,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,273,20,38,8,1,180,7.0,-1.7,95,30,12,141.0,196,Weight Loss,4,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,293,21,33,15,7,203,3.0,4.1,145,55,3,186.0,251,General Fitness,-1,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,305,25,49,12,7,202,9.0,-6.9,140,56,11,180.0,247,General Fitness,-7,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,310,22,30,18,0,158,-6.0,-6.5,102,36,3,128.0,173,Weight Loss,6,Non-Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,387,37,56,10,3,182,-7.0,5.7,125,66,1,163.0,215,Muscle Gain,15,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,302,27,44,4,4,200,4.0,0.10000000000000009,148,65,1,189.0,249,General Fitness,5,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,380,26,59,9,4,195,10.0,3.7,140,52,11,153.0,220,Muscle Gain,3,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,390,31,47,20,-2,218,10.0,2.6,159,75,9,168.0,242,Muscle Gain,8,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,299,19,33,11,12,204,-5.0,3.1,146,53,14,182.0,240,General Fitness,-6,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,390,25,47,8,9,198,-6.0,6.7,134,50,11,166.0,211,Muscle Gain,0,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,51,51,6,4,260,13.0,-2.2,178,78,12,204.0,275,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,411,23,49,14,18,199,3.0,7.0,139,54,19,170.0,238,Muscle Gain,10,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,416,56,26,21,-3,233,5.0,-5.3,152,50,13,173.0,244,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,322,22,25,18,6,143,7.0,-1.5,95,43,10,124.0,180,Weight Loss,14,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,40,24,5,9,228,6.0,4.7,165,63,9,179.0,250,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,468,42,46,7,1,245,5.0,5.8,161,78,20,207.0,269,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,380,18,41,9,0,195,11.0,2.7,138,61,15,166.0,214,Muscle Gain,5,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,479,31,53,13,1,243,12.0,-4.2,153,68,18,194.0,261,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,400,30,46,17,-3,196,10.0,9.7,135,59,17,159.0,224,Muscle Gain,4,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,381,21,48,7,11,191,-6.0,4.7,125,61,11,160.0,221,Muscle Gain,15,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,306,17,39,10,7,213,1.0,11.1,135,57,2,183.0,241,General Fitness,-6,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,302,10,45,12,-2,206,-4.0,0.10000000000000009,141,63,19,182.0,254,General Fitness,5,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,319,19,25,4,-2,155,6.0,0.5,92,45,16,122.0,170,Weight Loss,-5,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,480,44,51,23,7,254,12.0,0.8,159,70,3,195.0,270,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,479,31,47,19,16,253,11.0,-2.2,154,76,16,200.0,261,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,413,58,36,23,3,222,-4.0,-7.3,151,56,9,173.0,245,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,296,28,46,4,15,213,13.0,0.10000000000000009,147,50,17,185.0,256,General Fitness,-3,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,462,34,58,16,4,243,7.0,2.8,162,61,10,208.0,262,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,327,22,29,18,-6,160,-2.0,-0.5,103,55,8,114.0,177,Weight Loss,10,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,479,44,57,23,1,252,-3.0,1.8,164,64,8,207.0,261,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,322,29,30,0,-3,151,-6.0,-4.5,101,52,3,123.0,181,Weight Loss,6,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,460,30,46,11,10,246,13.0,2.8,160,70,11,210.0,269,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,420,21,51,15,17,190,8.0,3.0,125,57,20,173.0,231,Muscle Gain,15,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,370,40,55,7,-1,230,13.0,-2.4,157,55,14,163.0,238,Muscle Gain,6,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,429,40,18,25,11,231,4.0,-8.3,170,48,8,176.0,240,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,464,40,59,9,1,241,12.0,5.8,170,63,8,200.0,275,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,12,34,7,15,178,11.0,9.3,98,46,16,146.0,199,Weight Loss,0,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,463,36,59,6,7,240,7.0,-4.2,152,78,10,196.0,262,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,328,34,28,12,9,140,6.0,-2.5,108,45,14,123.0,187,Weight Loss,15,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,410,36,53,21,-2,191,10.0,-4.0,136,46,18,183.0,232,Muscle Gain,3,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,23,56,22,10,192,11.0,-5.0,129,61,19,180.0,243,Muscle Gain,3,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,386,29,53,18,3,216,5.0,1.6,152,72,18,166.0,244,Muscle Gain,19,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,391,28,58,13,7,192,12.0,-1.3,122,52,18,165.0,229,Muscle Gain,16,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,468,41,48,20,5,246,-1.0,4.8,167,78,22,201.0,280,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,413,38,46,22,-1,198,10.0,3.0,128,45,14,190.0,233,Muscle Gain,11,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,294,28,46,7,15,218,8.0,10.1,141,63,1,190.0,246,General Fitness,1,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,443,50,51,22,13,263,-5.0,1.8,176,65,22,204.0,271,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,446,32,61,3,14,270,1.0,-3.2,190,66,12,210.0,271,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,422,46,35,10,2,232,9.0,3.7,156,59,2,179.0,235,Muscle Gain,4,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,50,48,17,-2,261,8.0,10.8,175,76,8,190.0,288,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,387,20,43,10,-1,192,11.0,-1.3,123,68,10,152.0,221,Muscle Gain,8,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,301,22,34,10,10,206,12.0,10.1,147,54,5,182.0,244,General Fitness,-3,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,310,12,40,2,7,219,-1.0,-7.9,139,54,5,174.0,245,General Fitness,7,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,310,15,39,14,1,213,8.0,-5.9,144,63,12,190.0,246,General Fitness,9,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,283,28,45,7,12,176,-7.0,-1.7,87,40,9,142.0,207,Weight Loss,-1,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,294,16,32,13,15,200,-2.0,1.1,143,59,18,171.0,246,General Fitness,2,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,294,16,32,11,3,215,-5.0,-5.9,136,51,8,172.0,257,General Fitness,3,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,416,35,58,7,-2,198,7.0,-5.0,130,45,18,190.0,250,Muscle Gain,5,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,30,54,20,-2,247,2.0,-4.2,152,79,2,198.0,271,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,396,26,42,15,5,199,13.0,10.7,136,54,7,160.0,229,Muscle Gain,8,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,415,52,18,15,10,221,4.0,8.7,169,55,6,184.0,232,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,312,16,16,16,14,159,12.0,11.5,107,45,16,118.0,180,Weight Loss,15,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,460,42,56,9,12,250,1.0,-1.2,179,77,8,204.0,277,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,417,32,65,20,6,197,-4.0,-4.0,122,45,3,170.0,235,Muscle Gain,1,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,372,27,50,10,8,222,11.0,-0.3999999999999999,159,64,22,167.0,248,Muscle Gain,5,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,286,8,37,20,14,171,9.0,8.3,83,43,17,133.0,195,Weight Loss,-4,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,309,14,49,6,1,219,14.0,12.1,145,52,12,170.0,243,General Fitness,8,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,308,14,36,10,3,220,-2.0,5.1,146,47,4,181.0,245,General Fitness,0,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,412,21,64,22,1,202,5.0,10.0,138,62,3,175.0,248,Muscle Gain,18,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,385,40,58,11,14,210,10.0,-3.4,160,72,15,175.0,249,Muscle Gain,11,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,428,48,32,17,-3,220,4.0,-6.3,165,50,4,186.0,243,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,426,30,48,14,10,196,1.0,11.0,136,54,6,185.0,250,Muscle Gain,16,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,303,15,40,0,-2,210,5.0,12.1,132,57,13,190.0,254,General Fitness,4,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,325,23,14,15,-4,146,0.0,-1.5,108,46,8,129.0,181,Weight Loss,-4,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,444,52,61,2,11,259,12.0,-3.2,182,79,14,208.0,279,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,477,36,41,10,14,258,8.0,-1.2,152,63,3,202.0,279,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,328,26,14,-2,-2,154,12.0,6.5,102,44,8,122.0,181,Weight Loss,-4,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,465,37,43,6,11,254,-1.0,-7.2,151,79,12,203.0,260,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,300,21,48,13,4,217,7.0,11.1,137,61,9,176.0,244,General Fitness,-3,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,298,29,45,10,4,206,6.0,7.1,138,65,19,173.0,258,General Fitness,1,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,451,50,47,13,7,267,13.0,6.8,171,73,10,190.0,283,Muscle Gain,23,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,384,20,42,17,-4,187,-2.0,2.7,132,60,14,160.0,222,Muscle Gain,-2,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,303,16,35,2,9,210,8.0,12.1,145,46,9,188.0,260,General Fitness,-1,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,47,42,17,10,249,-4.0,-3.2,156,77,2,206.0,266,Muscle Gain,23,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,290,21,33,11,-1,204,7.0,1.1,142,51,4,171.0,243,General Fitness,0,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,414,26,49,11,12,196,-3.0,-7.0,136,45,9,184.0,244,Muscle Gain,9,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,377,25,53,18,6,211,9.0,-3.4,158,70,15,179.0,249,Muscle Gain,7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,290,16,31,4,16,180,5.0,-3.7,86,48,18,135.0,199,Weight Loss,13,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,464,47,49,17,-4,253,1.0,0.8,163,65,19,195.0,275,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,296,12,44,18,3,212,8.0,-0.8999999999999999,147,58,20,175.0,242,General Fitness,2,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,422,42,33,7,0,228,11.0,-3.3,150,59,5,190.0,233,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,427,35,51,16,6,210,9.0,2.0,138,56,5,176.0,250,Muscle Gain,19,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,393,27,49,22,6,181,3.0,10.7,126,53,8,169.0,219,Muscle Gain,-2,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,322,24,14,15,-3,153,0.0,1.5,106,37,11,111.0,172,Weight Loss,11,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,449,33,55,4,16,269,3.0,10.8,180,69,18,195.0,290,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,31,43,12,1,249,-5.0,-4.2,155,64,17,204.0,268,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,478,41,59,19,11,256,9.0,1.8,160,66,15,198.0,277,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,25,53,10,17,193,-1.0,10.0,120,52,20,177.0,234,Muscle Gain,17,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,271,28,27,19,16,175,7.0,10.3,80,50,7,146.0,200,Weight Loss,5,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,305,24,45,14,16,212,1.0,-4.9,130,53,8,179.0,243,General Fitness,7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,12,40,2,-2,168,-4.0,7.3,95,40,18,141.0,208,Weight Loss,16,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,475,46,56,18,9,245,9.0,-4.2,152,78,5,209.0,266,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,389,26,50,9,-2,215,-3.0,-7.4,140,61,22,166.0,230,Muscle Gain,2,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,289,8,29,10,8,175,12.0,11.3,84,44,17,143.0,202,Weight Loss,8,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,397,32,57,3,-1,189,-3.0,8.7,132,60,9,165.0,214,Muscle Gain,9,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,417,30,47,20,0,208,2.0,11.0,125,54,7,181.0,249,Muscle Gain,12,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,35,56,8,14,196,12.0,-1.0,140,63,19,188.0,244,Muscle Gain,11,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,477,47,55,13,8,246,-7.0,-3.2,160,62,15,202.0,276,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,423,34,55,5,2,193,4.0,11.0,133,46,3,185.0,237,Muscle Gain,7,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,310,19,31,8,-4,201,-4.0,-7.9,145,46,18,172.0,254,General Fitness,-4,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,377,22,53,17,14,212,-6.0,1.6,141,62,2,160.0,246,Muscle Gain,14,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,295,26,38,13,14,200,10.0,4.1,135,58,6,186.0,244,General Fitness,-5,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,417,47,21,6,-2,220,9.0,-2.3,164,49,9,187.0,246,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,424,40,36,8,5,230,4.0,1.7,150,52,3,170.0,237,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,380,36,51,10,11,228,4.0,-7.4,157,60,17,166.0,230,Muscle Gain,1,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,430,23,45,25,-1,196,9.0,7.0,122,62,11,186.0,235,Muscle Gain,8,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,415,20,51,16,5,197,2.0,-5.0,139,55,10,176.0,231,Muscle Gain,15,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,426,54,25,20,3,229,-1.0,-5.3,165,48,18,183.0,243,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,416,23,61,17,14,203,-5.0,9.0,127,65,16,170.0,241,Muscle Gain,7,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,395,25,43,16,9,196,-1.0,-3.3,129,67,14,165.0,224,Muscle Gain,6,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,315,28,16,8,14,143,-4.0,-2.5,108,48,9,125.0,182,Weight Loss,7,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,321,34,12,5,1,154,13.0,-8.5,101,55,19,118.0,174,Weight Loss,8,Non-Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,385,34,54,21,15,194,6.0,-6.3,132,57,17,160.0,229,Muscle Gain,13,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,478,42,45,17,9,246,8.0,5.8,156,60,14,199.0,277,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,447,52,45,4,5,258,0.0,0.8,185,71,10,206.0,276,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,414,43,26,21,2,232,5.0,6.7,170,51,1,184.0,237,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,315,22,10,15,7,143,10.0,10.5,99,42,2,121.0,186,Weight Loss,1,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,273,12,32,3,8,176,1.0,-5.7,82,30,2,131.0,200,Weight Loss,9,Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,429,48,38,19,5,223,4.0,4.7,157,49,0,173.0,238,Muscle Gain,3,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,41,56,5,4,250,0.0,9.8,156,65,10,196.0,269,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,429,47,34,11,9,234,-3.0,-6.3,150,61,5,186.0,242,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,18,43,5,7,201,13.0,4.1,132,65,12,180.0,248,General Fitness,3,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,477,45,47,7,6,240,3.0,-5.2,169,76,8,198.0,270,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,326,23,19,12,3,160,6.0,2.5,96,49,7,120.0,171,Weight Loss,-5,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,413,21,49,22,10,194,-2.0,9.0,139,55,20,170.0,246,Muscle Gain,2,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,470,41,54,13,3,241,-6.0,11.8,156,80,3,209.0,274,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,460,51,52,18,6,262,14.0,-0.19999999999999996,186,65,19,191.0,288,Muscle Gain,9,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,383,26,47,10,1,180,9.0,-8.3,140,66,1,166.0,228,Muscle Gain,13,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,419,27,57,7,0,203,-6.0,4.0,136,58,13,189.0,236,Muscle Gain,8,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,34,64,24,5,192,8.0,11.0,124,60,14,177.0,242,Muscle Gain,2,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,417,24,56,20,4,210,-2.0,4.0,131,54,19,189.0,244,Muscle Gain,17,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,419,50,28,23,-1,240,9.0,-1.3,165,63,3,187.0,233,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,14,43,12,14,205,3.0,12.1,143,49,15,178.0,248,General Fitness,-3,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,370,36,47,10,8,213,-7.0,11.6,144,66,13,180.0,247,Muscle Gain,11,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,420,20,64,9,-1,209,-3.0,-6.0,135,61,18,178.0,231,Muscle Gain,6,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,395,24,58,14,12,199,6.0,7.7,128,59,6,158.0,223,Muscle Gain,5,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,290,14,45,5,1,176,-7.0,5.3,83,43,-1,136.0,200,Weight Loss,1,Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,320,28,18,16,11,146,5.0,-6.5,98,35,15,118.0,178,Weight Loss,-5,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,275,26,32,5,7,167,9.0,1.3,85,30,1,139.0,194,Weight Loss,-1,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,309,22,30,2,3,203,-5.0,9.1,130,48,19,187.0,260,General Fitness,4,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,286,12,34,17,6,180,7.0,-2.7,90,35,6,141.0,208,Weight Loss,2,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,388,26,42,18,13,180,-6.0,-4.3,137,59,12,165.0,216,Muscle Gain,2,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,478,47,47,9,16,249,12.0,-6.2,159,65,22,191.0,279,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,48,50,15,13,258,14.0,-6.2,188,68,11,195.0,281,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,390,18,58,9,14,181,13.0,5.7,130,50,9,166.0,229,Muscle Gain,13,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,472,36,41,18,7,244,-6.0,5.8,157,65,13,197.0,280,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,278,17,29,11,-2,180,0.0,-0.7,96,41,0,148.0,207,Weight Loss,-1,Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,270,25,27,19,7,172,3.0,8.3,90,47,10,148.0,191,Weight Loss,0,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,442,50,58,9,9,256,-1.0,3.8,180,73,6,203.0,276,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,386,28,51,9,7,187,-5.0,9.7,121,65,13,156.0,220,Muscle Gain,3,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,462,30,48,21,16,256,12.0,8.8,151,65,6,191.0,262,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,301,22,40,16,7,201,5.0,6.1,131,59,16,174.0,243,General Fitness,9,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,475,36,49,5,11,249,12.0,-4.2,152,64,5,194.0,274,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,20,34,15,7,164,-2.0,4.3,89,31,10,140.0,202,Weight Loss,11,Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,279,18,36,2,2,160,-2.0,-8.7,86,50,11,136.0,209,Weight Loss,-1,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,33,60,3,4,256,5.0,2.8,190,67,22,206.0,271,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,423,46,24,17,5,240,10.0,-4.3,160,61,8,170.0,230,Muscle Gain,14,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,444,40,54,22,4,255,9.0,8.8,184,60,5,204.0,290,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,278,27,44,20,9,166,12.0,0.30000000000000004,91,44,17,142.0,200,Weight Loss,5,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,49,60,12,2,250,12.0,2.8,190,69,6,197.0,283,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,272,8,38,6,5,180,-3.0,0.30000000000000004,80,41,-2,146.0,205,Weight Loss,-3,Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,315,30,18,-1,14,149,-1.0,-8.5,91,47,6,118.0,187,Weight Loss,8,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,428,52,30,11,6,236,11.0,-1.3,169,51,17,176.0,244,Muscle Gain,2,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,449,47,45,6,5,250,4.0,9.8,177,64,2,199.0,271,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,395,25,41,14,8,190,-1.0,-2.3,128,68,1,170.0,230,Muscle Gain,5,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,410,37,45,14,6,204,12.0,10.0,129,62,10,187.0,248,Muscle Gain,17,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,31,49,22,-1,205,7.0,1.0,128,47,19,177.0,232,Muscle Gain,12,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,292,10,36,16,9,219,3.0,-3.9,142,53,8,173.0,255,General Fitness,1,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,310,14,50,1,-1,218,9.0,-5.9,141,50,14,190.0,251,General Fitness,5,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,470,45,40,11,11,251,6.0,10.8,169,71,4,203.0,279,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,308,21,40,1,-3,202,15.0,1.1,132,49,5,183.0,257,General Fitness,1,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,298,23,49,3,15,200,12.0,-6.9,139,50,19,178.0,255,General Fitness,4,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,471,43,54,6,10,244,5.0,-2.2,161,73,13,209.0,260,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,278,28,44,12,16,180,9.0,9.3,83,40,4,140.0,206,Weight Loss,-1,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,382,31,52,14,15,181,8.0,11.7,136,60,6,165.0,216,Muscle Gain,7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,282,26,41,9,14,174,0.0,9.3,97,45,12,137.0,203,Weight Loss,1,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,479,31,44,8,12,254,1.0,-5.2,159,78,22,195.0,263,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,425,39,50,13,3,198,-5.0,-1.0,130,49,8,170.0,243,Muscle Gain,11,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,467,34,52,18,-4,249,4.0,-4.2,152,78,10,209.0,280,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,464,47,51,12,-3,246,8.0,-2.2,151,70,18,202.0,262,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,294,22,47,7,3,216,2.0,1.1,149,53,6,179.0,251,General Fitness,4,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,324,35,29,5,11,149,11.0,4.5,97,39,7,113.0,174,Weight Loss,2,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,451,46,61,20,15,255,1.0,-0.19999999999999996,189,72,4,208.0,279,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,330,34,17,10,-3,152,11.0,6.5,107,44,10,111.0,189,Weight Loss,1,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,440,37,53,9,12,270,14.0,-4.2,187,78,18,201.0,287,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,312,15,10,6,13,141,8.0,8.5,100,35,2,122.0,185,Weight Loss,-5,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,45,55,18,-1,243,8.0,-8.2,165,65,6,203.0,262,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,30,34,15,10,209,5.0,-6.9,134,61,7,180.0,260,General Fitness,11,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,398,20,41,7,10,200,1.0,1.7,139,67,11,164.0,227,Muscle Gain,13,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,43,43,16,12,248,11.0,-5.2,167,66,4,199.0,280,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,25,29,12,-3,176,3.0,-1.7,95,31,11,143.0,195,Weight Loss,-1,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,425,39,50,25,7,196,14.0,10.0,126,57,15,176.0,239,Muscle Gain,5,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,323,33,13,15,-5,160,0.0,-0.5,92,51,15,119.0,174,Weight Loss,2,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,319,31,28,13,-6,143,11.0,-2.5,104,37,4,125.0,187,Weight Loss,9,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,415,41,20,9,3,233,10.0,1.7,168,63,8,183.0,242,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,413,52,32,9,15,229,-7.0,9.7,150,59,20,180.0,237,Muscle Gain,1,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,461,35,52,14,8,252,-4.0,5.8,162,66,9,210.0,261,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,446,45,65,19,9,261,-5.0,11.8,182,79,8,197.0,289,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,400,19,55,7,15,192,-4.0,0.7,128,56,6,153.0,225,Muscle Gain,3,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,388,27,51,3,13,220,12.0,11.6,142,62,12,177.0,246,Muscle Gain,7,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,381,29,42,8,12,198,-2.0,-4.3,135,60,10,158.0,222,Muscle Gain,-2,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,397,18,40,2,14,190,0.0,7.7,122,51,16,156.0,228,Muscle Gain,4,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,373,22,52,9,-3,213,-2.0,-6.4,157,74,5,166.0,237,Muscle Gain,1,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,311,29,19,12,1,143,-4.0,-5.5,91,44,4,117.0,182,Weight Loss,15,Non-Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,387,36,59,7,5,219,-3.0,7.6,150,74,11,169.0,230,Muscle Gain,7,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,25,51,7,13,204,10.0,-3.0,138,58,12,176.0,242,Muscle Gain,17,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,426,26,59,18,5,195,-5.0,3.0,128,49,16,182.0,249,Muscle Gain,18,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,424,48,24,23,2,221,1.0,11.7,158,47,2,184.0,236,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,471,46,41,22,-1,242,-3.0,3.8,162,64,17,192.0,280,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,308,23,30,9,9,206,9.0,-3.9,148,49,19,186.0,256,General Fitness,4,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,429,37,64,14,8,197,6.0,7.0,133,49,12,180.0,232,Muscle Gain,4,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,320,22,26,8,1,152,-2.0,11.5,97,36,17,118.0,179,Weight Loss,-2,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,319,32,29,8,-4,144,6.0,9.5,99,41,19,115.0,181,Weight Loss,-5,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,45,46,16,3,257,3.0,0.8,176,61,6,197.0,281,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,35,60,18,9,255,12.0,1.8,171,66,8,200.0,277,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,443,38,45,16,10,268,-2.0,-0.19999999999999996,178,64,11,198.0,271,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,452,49,48,22,5,254,6.0,-6.2,186,64,16,200.0,272,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,325,21,16,-2,12,149,-2.0,3.5,92,40,1,124.0,173,Weight Loss,13,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,289,18,38,0,2,176,-1.0,-2.7,91,38,7,148.0,209,Weight Loss,-4,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,443,35,52,3,-2,253,0.0,4.8,176,62,11,198.0,273,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,21,31,1,5,218,9.0,-7.9,130,63,19,171.0,251,General Fitness,8,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,29,50,8,6,241,3.0,10.8,160,73,18,210.0,279,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,427,28,59,16,16,209,2.0,-3.0,121,50,19,183.0,232,Muscle Gain,9,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,26,60,13,16,205,5.0,6.0,121,61,16,170.0,231,Muscle Gain,15,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,413,39,62,18,14,207,14.0,4.0,136,57,13,186.0,242,Muscle Gain,18,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,423,28,47,25,16,190,12.0,-5.0,126,62,13,183.0,248,Muscle Gain,10,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,320,32,21,7,14,151,10.0,0.5,109,53,10,130.0,177,Weight Loss,12,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,421,54,23,23,2,229,-3.0,-5.3,160,63,3,181.0,232,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,34,62,5,3,194,-6.0,-8.0,133,58,5,185.0,231,Muscle Gain,13,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,293,13,48,18,2,210,14.0,8.1,140,54,8,185.0,249,General Fitness,7,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,418,27,57,7,8,198,4.0,-8.0,121,62,13,175.0,243,Muscle Gain,11,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,330,26,16,14,3,143,1.0,-1.5,91,44,18,121.0,175,Weight Loss,-2,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,278,27,27,2,2,173,2.0,0.30000000000000004,99,42,6,133.0,206,Weight Loss,8,Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,426,50,35,20,16,238,11.0,-2.3,166,53,14,174.0,233,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,399,33,42,4,2,193,0.0,-6.3,130,54,3,158.0,227,Muscle Gain,4,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,410,58,22,25,5,223,12.0,2.7,151,50,9,182.0,241,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,58,24,7,11,223,5.0,-6.3,169,60,16,175.0,232,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,370,25,55,17,13,230,0.0,1.6,144,60,15,165.0,244,Muscle Gain,20,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,410,31,57,20,2,194,14.0,1.0,128,64,0,183.0,232,Muscle Gain,14,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,420,54,23,15,13,223,11.0,-6.3,169,64,11,170.0,249,Muscle Gain,2,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,291,26,43,19,16,200,-1.0,-1.9,140,53,0,175.0,247,General Fitness,-5,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,319,17,28,3,7,141,4.0,-1.5,109,48,6,114.0,188,Weight Loss,3,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,330,21,19,-2,14,143,11.0,-0.5,105,39,19,124.0,179,Weight Loss,10,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,50,22,7,11,239,7.0,-2.3,150,58,3,179.0,246,Muscle Gain,1,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,320,17,12,14,-4,154,-4.0,-3.5,100,43,19,115.0,182,Weight Loss,-5,Non-Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,385,36,59,2,5,180,0.0,11.7,134,60,17,156.0,210,Muscle Gain,5,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,472,48,47,22,-2,244,10.0,11.8,151,67,19,196.0,267,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,443,39,53,15,17,254,7.0,-2.2,179,65,17,207.0,273,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,452,50,62,12,3,263,11.0,6.8,176,61,16,192.0,283,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,274,12,31,8,16,160,5.0,-2.7,80,45,5,145.0,196,Weight Loss,9,Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,388,39,56,12,6,215,7.0,3.6,149,73,6,178.0,231,Muscle Gain,19,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,35,60,9,11,253,9.0,1.8,167,62,15,195.0,271,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,317,27,22,10,7,145,7.0,10.5,97,42,2,124.0,179,Weight Loss,2,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,56,37,20,0,236,-6.0,6.7,160,53,16,181.0,247,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,394,22,51,15,15,187,12.0,1.7,132,67,0,168.0,224,Muscle Gain,18,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,294,25,41,12,-2,206,-1.0,-5.9,147,50,16,186.0,242,General Fitness,13,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,386,21,43,11,0,217,2.0,9.6,148,65,6,176.0,230,Muscle Gain,12,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,379,26,41,9,3,229,12.0,7.6,160,61,7,172.0,231,Muscle Gain,11,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,320,19,12,9,12,146,10.0,-5.5,106,45,10,123.0,187,Weight Loss,12,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,327,17,22,10,14,142,2.0,-4.5,91,47,2,118.0,177,Weight Loss,-3,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,40,56,23,9,258,-7.0,9.8,163,75,5,190.0,272,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,329,17,10,18,9,143,13.0,-7.5,91,35,-1,120.0,173,Weight Loss,4,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,416,52,25,12,13,229,9.0,7.7,169,63,6,188.0,250,Muscle Gain,3,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,473,38,44,15,7,247,13.0,9.8,167,75,21,202.0,263,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,415,48,38,12,4,235,3.0,-3.3,153,63,14,190.0,241,Muscle Gain,2,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,284,13,36,9,10,173,10.0,-8.7,94,34,10,146.0,205,Weight Loss,0,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,480,32,49,21,15,253,-4.0,4.8,155,69,4,192.0,276,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,372,32,60,8,0,227,3.0,-8.4,145,60,6,170.0,245,Muscle Gain,7,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,298,23,40,10,4,215,7.0,4.1,147,59,19,176.0,243,General Fitness,10,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,390,21,44,2,4,188,2.0,3.7,124,58,1,155.0,216,Muscle Gain,7,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,370,30,40,9,14,218,4.0,8.6,145,61,9,173.0,243,Muscle Gain,18,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,328,33,23,11,-2,142,-7.0,-8.5,97,45,17,117.0,178,Weight Loss,9,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,317,17,25,18,1,159,-7.0,-4.5,98,42,3,113.0,170,Weight Loss,3,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,415,33,53,16,13,201,2.0,12.0,124,59,7,176.0,243,Muscle Gain,14,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,26,41,0,12,175,-1.0,-1.7,98,42,8,138.0,196,Weight Loss,13,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,395,25,60,8,-2,197,-6.0,0.7,123,63,17,161.0,230,Muscle Gain,3,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,326,22,16,11,8,151,-6.0,-0.5,95,45,7,111.0,182,Weight Loss,14,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,412,26,59,9,10,208,5.0,-8.0,124,58,18,180.0,236,Muscle Gain,6,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,286,21,38,8,10,177,-4.0,1.3,97,40,6,134.0,194,Weight Loss,8,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,296,23,39,5,15,212,-3.0,-5.9,139,61,1,189.0,259,General Fitness,7,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,443,47,61,5,7,257,-4.0,-4.2,177,74,19,205.0,284,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,444,51,49,7,16,265,14.0,-3.2,179,61,15,207.0,273,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,384,19,41,2,9,185,-7.0,9.7,137,64,9,167.0,228,Muscle Gain,4,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,416,28,59,14,12,195,2.0,-6.0,137,49,17,178.0,232,Muscle Gain,15,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,32,56,14,16,207,12.0,6.0,137,57,20,178.0,248,Muscle Gain,4,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,471,33,45,22,9,243,-5.0,-2.2,150,60,19,195.0,279,Muscle Gain,14,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,424,56,19,11,-2,224,11.0,2.7,170,65,19,178.0,239,Muscle Gain,0,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,419,31,47,14,7,201,11.0,1.0,120,52,5,172.0,237,Muscle Gain,10,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,307,23,43,9,12,216,5.0,2.1,148,64,8,176.0,250,General Fitness,-6,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,384,34,40,2,-4,182,3.0,-8.3,130,53,11,155.0,218,Muscle Gain,12,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,440,43,57,8,-2,254,9.0,-3.2,175,63,18,208.0,281,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,292,26,37,14,3,200,-2.0,12.1,149,46,2,182.0,257,General Fitness,10,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,466,34,50,21,3,256,11.0,8.8,157,69,9,200.0,274,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,284,17,31,9,6,168,7.0,-0.7,80,35,7,131.0,206,Weight Loss,-1,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,309,30,34,13,-2,214,-2.0,12.1,148,46,10,183.0,255,General Fitness,-7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,274,14,41,18,8,164,-7.0,-3.7,85,47,1,130.0,199,Weight Loss,-1,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,456,32,57,21,-1,262,5.0,-1.2,174,77,11,210.0,273,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,393,21,54,20,10,192,-6.0,0.7,128,65,9,156.0,227,Muscle Gain,14,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,465,45,56,14,10,259,6.0,6.8,152,80,15,204.0,269,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,458,38,62,20,13,251,9.0,-4.2,177,74,5,208.0,273,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,442,35,63,17,-3,268,1.0,-1.2,173,60,4,190.0,275,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,476,38,54,5,-3,259,8.0,10.8,169,60,19,206.0,267,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,22,52,14,0,204,-6.0,-4.0,131,59,15,178.0,243,Muscle Gain,7,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,307,28,47,10,-4,217,3.0,-1.9,134,52,17,170.0,260,General Fitness,1,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,425,25,45,10,11,191,5.0,-2.0,136,63,6,179.0,245,Muscle Gain,0,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,273,10,26,15,2,176,5.0,-1.7,84,30,-2,134.0,190,Weight Loss,-1,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,291,23,34,1,-2,218,7.0,8.1,150,53,9,172.0,251,General Fitness,0,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,283,21,33,5,8,178,9.0,10.3,88,40,15,137.0,193,Weight Loss,5,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,297,16,37,14,13,203,4.0,-5.9,137,46,11,186.0,257,General Fitness,13,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,307,15,45,6,13,210,12.0,-1.9,131,47,12,182.0,258,General Fitness,9,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,26,38,16,-1,208,1.0,0.10000000000000009,134,55,7,179.0,246,General Fitness,9,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,447,49,57,4,17,253,0.0,10.8,187,78,9,192.0,278,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,461,32,54,7,4,243,13.0,-5.2,151,67,19,195.0,280,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,382,35,50,13,3,222,8.0,-8.4,144,55,6,162.0,250,Muscle Gain,6,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,410,42,24,10,0,224,-6.0,3.7,168,59,5,174.0,244,Muscle Gain,2,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,413,33,53,7,9,193,3.0,6.0,123,57,4,177.0,247,Muscle Gain,8,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,386,33,48,17,-1,214,2.0,6.6,146,70,18,170.0,235,Muscle Gain,2,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,328,27,13,14,10,153,6.0,11.5,92,55,18,112.0,178,Weight Loss,10,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,279,13,44,1,-3,160,2.0,-8.7,99,38,2,135.0,190,Weight Loss,1,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,442,43,54,8,10,255,10.0,-4.2,174,63,14,199.0,278,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,310,12,43,1,5,206,13.0,-1.9,135,47,19,172.0,240,General Fitness,-4,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,322,29,17,16,-5,153,6.0,-8.5,109,54,7,110.0,182,Weight Loss,8,Non-Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,302,23,35,17,16,203,-2.0,11.1,149,62,18,170.0,240,General Fitness,-2,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,400,23,53,9,14,184,5.0,3.7,137,58,4,150.0,218,Muscle Gain,0,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,275,19,34,13,6,179,10.0,-0.7,91,35,9,132.0,208,Weight Loss,-4,Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,286,20,41,18,0,165,-2.0,6.3,97,47,18,130.0,202,Weight Loss,2,Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,411,57,25,8,3,237,11.0,1.7,157,49,20,173.0,240,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,417,57,36,25,-4,240,3.0,-1.3,168,63,16,173.0,233,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,290,11,34,3,2,171,1.0,3.3,90,40,14,133.0,203,Weight Loss,-4,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,467,36,43,16,-1,241,3.0,11.8,168,63,2,191.0,264,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,411,36,59,11,17,196,7.0,10.0,124,59,4,172.0,244,Muscle Gain,1,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,315,31,15,13,14,150,4.0,7.5,100,39,17,118.0,187,Weight Loss,-1,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,314,29,17,18,13,156,8.0,-1.5,106,51,19,117.0,181,Weight Loss,6,Non-Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,390,33,41,16,5,197,13.0,0.7,131,51,17,160.0,227,Muscle Gain,4,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,472,44,52,15,15,245,-4.0,7.8,165,62,13,208.0,277,Muscle Gain,14,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,395,38,48,16,15,183,-7.0,6.7,137,66,1,170.0,228,Muscle Gain,-2,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,326,31,25,18,-6,142,6.0,2.5,110,42,14,111.0,184,Weight Loss,-3,Non-Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,383,39,47,15,1,220,0.0,7.6,160,75,5,160.0,250,Muscle Gain,8,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,52,59,15,7,256,0.0,0.8,182,71,2,193.0,279,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,440,38,53,21,14,252,-6.0,1.8,174,72,2,203.0,287,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,383,19,43,21,-4,198,5.0,7.7,130,60,1,168.0,226,Muscle Gain,1,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,321,18,16,18,11,159,6.0,8.5,103,46,1,114.0,180,Weight Loss,-2,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,466,28,50,17,14,252,-6.0,-0.19999999999999996,161,67,15,209.0,267,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,389,32,43,3,0,197,4.0,11.7,140,57,14,170.0,227,Muscle Gain,18,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,419,34,48,11,10,210,9.0,8.0,136,55,9,190.0,236,Muscle Gain,3,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,478,43,55,22,12,242,-6.0,-6.2,166,66,7,195.0,275,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,420,34,45,16,1,196,-4.0,3.0,131,59,2,176.0,235,Muscle Gain,14,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,330,26,27,9,-3,151,8.0,-5.5,90,46,13,111.0,172,Weight Loss,12,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,411,29,46,20,10,209,0.0,8.0,129,45,18,184.0,247,Muscle Gain,8,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,284,17,44,12,3,171,-7.0,2.3,89,42,8,131.0,203,Weight Loss,2,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,294,13,30,20,2,203,7.0,3.1,131,60,13,171.0,241,General Fitness,-7,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,415,45,25,21,-3,240,9.0,-5.3,157,51,3,187.0,231,Muscle Gain,9,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,390,34,57,19,-5,228,3.0,8.6,155,70,8,173.0,245,Muscle Gain,12,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,270,19,31,1,15,177,9.0,-6.7,85,43,15,138.0,210,Weight Loss,6,Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,278,21,43,11,15,162,5.0,10.3,100,41,8,132.0,194,Weight Loss,-3,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,410,38,47,12,17,209,0.0,-8.0,132,47,10,186.0,242,Muscle Gain,16,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,277,11,36,16,16,161,2.0,3.3,92,40,6,143.0,199,Weight Loss,12,Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,372,34,57,20,8,220,-7.0,-5.4,142,57,17,162.0,245,Muscle Gain,16,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,460,30,42,21,-1,259,1.0,-7.2,152,73,6,205.0,277,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,302,25,39,14,-1,205,-1.0,6.1,144,62,6,172.0,246,General Fitness,-7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,274,21,36,9,17,178,6.0,7.3,81,42,13,137.0,191,Weight Loss,14,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,294,28,49,9,7,207,5.0,11.1,146,61,3,170.0,257,General Fitness,-4,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,450,38,52,19,1,252,11.0,2.8,189,71,16,210.0,282,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,417,52,18,5,12,222,-5.0,10.7,160,54,5,187.0,237,Muscle Gain,0,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,314,16,21,18,5,155,-3.0,10.5,103,36,5,113.0,170,Weight Loss,14,Non-Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,309,20,40,16,-3,215,0.0,8.1,143,45,13,180.0,259,General Fitness,-3,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,475,41,49,11,2,257,-7.0,1.8,153,62,7,194.0,279,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,411,27,56,14,11,201,-1.0,-3.0,125,48,12,182.0,235,Muscle Gain,15,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,30,53,13,6,259,-6.0,8.8,162,64,19,194.0,266,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,416,51,19,16,5,240,4.0,1.7,166,57,15,175.0,247,Muscle Gain,19,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,297,15,42,9,14,214,-3.0,-2.9,141,57,13,190.0,252,General Fitness,12,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,440,46,60,7,1,262,14.0,-4.2,184,74,17,203.0,283,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,456,41,56,11,9,257,0.0,3.8,173,74,8,203.0,274,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,466,41,47,4,14,240,3.0,3.8,166,62,10,198.0,265,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,426,51,37,20,1,221,11.0,4.7,158,62,6,183.0,244,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,373,20,57,14,12,214,-7.0,1.6,145,74,10,165.0,244,Muscle Gain,2,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,479,36,45,19,5,258,2.0,1.8,160,77,19,207.0,268,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,430,44,32,16,14,231,11.0,8.7,160,64,19,177.0,230,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,293,24,36,18,1,214,-1.0,10.1,137,59,7,185.0,255,General Fitness,12,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,309,11,39,10,-1,210,14.0,2.1,146,47,7,178.0,253,General Fitness,3,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,420,24,49,12,11,203,-2.0,-5.0,124,55,11,179.0,234,Muscle Gain,12,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,447,33,46,13,14,268,7.0,-8.2,179,75,20,192.0,271,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,456,38,46,14,2,258,-4.0,-3.2,185,62,9,201.0,282,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,36,47,15,12,265,-4.0,5.8,188,68,5,209.0,288,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,381,21,57,9,-4,185,8.0,0.7,121,68,14,162.0,211,Muscle Gain,13,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,308,29,45,19,7,200,-4.0,1.1,143,52,20,187.0,240,General Fitness,3,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,442,39,64,8,9,264,-5.0,1.8,185,72,15,199.0,278,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,303,23,33,6,5,209,15.0,-1.9,142,53,4,171.0,256,General Fitness,5,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,389,30,44,7,13,223,-3.0,5.6,157,57,16,167.0,236,Muscle Gain,16,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,317,31,29,12,2,159,5.0,11.5,99,44,17,122.0,180,Weight Loss,15,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,319,21,29,17,6,145,8.0,0.5,106,48,1,122.0,181,Weight Loss,6,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,430,60,24,5,14,232,2.0,-7.3,168,54,2,181.0,236,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,382,31,60,14,-1,196,13.0,-4.3,136,62,1,151.0,215,Muscle Gain,14,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,273,19,39,1,-3,164,-1.0,-4.7,83,40,18,144.0,208,Weight Loss,-3,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,384,21,50,12,8,183,6.0,3.7,139,53,3,165.0,211,Muscle Gain,1,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,378,22,58,4,6,229,4.0,-1.4,143,56,7,180.0,235,Muscle Gain,12,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,373,30,44,17,15,225,10.0,3.6,160,57,11,161.0,239,Muscle Gain,5,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,389,26,53,13,-3,197,8.0,1.7,132,70,14,161.0,221,Muscle Gain,10,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,296,21,33,10,0,219,2.0,-1.9,150,65,16,182.0,251,General Fitness,-3,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,413,27,45,13,4,209,-3.0,5.0,128,54,8,178.0,233,Muscle Gain,9,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,280,19,45,16,11,160,-3.0,0.30000000000000004,89,48,-1,140.0,190,Weight Loss,13,Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,378,31,45,19,7,216,0.0,-7.4,154,74,16,169.0,235,Muscle Gain,12,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,50,54,14,0,269,14.0,2.8,187,73,2,206.0,281,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,429,29,47,12,13,205,4.0,3.0,132,65,14,186.0,244,Muscle Gain,16,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,281,14,38,13,15,172,6.0,10.3,98,50,5,144.0,210,Weight Loss,9,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,449,52,49,22,10,260,-6.0,-5.2,189,65,10,201.0,284,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,301,20,39,19,16,214,15.0,-2.9,131,59,5,172.0,250,General Fitness,-7,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,421,36,61,11,15,198,4.0,8.0,132,54,10,190.0,249,Muscle Gain,10,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,46,49,10,2,267,12.0,4.8,172,79,9,209.0,284,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,392,28,57,7,4,190,9.0,8.7,134,65,16,160.0,219,Muscle Gain,1,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,414,31,45,11,2,193,4.0,9.0,123,52,11,176.0,239,Muscle Gain,7,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,384,35,48,0,9,227,-2.0,4.6,156,62,16,173.0,241,Muscle Gain,7,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,414,33,49,18,9,199,-5.0,7.0,139,65,4,185.0,238,Muscle Gain,13,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,317,32,24,-2,0,154,11.0,-2.5,99,47,10,124.0,175,Weight Loss,2,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,425,38,54,14,14,209,5.0,7.0,124,49,1,177.0,245,Muscle Gain,10,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,413,38,56,17,4,202,-2.0,5.0,123,54,8,177.0,234,Muscle Gain,0,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,424,47,29,22,9,232,-6.0,1.7,165,62,15,183.0,231,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,315,34,14,-1,2,150,10.0,9.5,107,55,1,130.0,189,Weight Loss,3,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,277,13,43,14,12,180,0.0,10.3,81,47,-1,145.0,192,Weight Loss,6,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,461,44,40,4,13,250,-2.0,8.8,163,67,7,202.0,278,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,458,44,57,3,2,260,13.0,2.8,173,78,15,191.0,279,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,454,37,61,14,5,250,1.0,2.8,170,64,20,210.0,271,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,475,31,48,9,8,252,-3.0,1.8,153,79,11,193.0,262,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,423,60,28,16,10,226,8.0,-2.3,150,63,14,179.0,235,Muscle Gain,0,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,282,9,33,8,12,174,-2.0,-7.7,90,35,3,138.0,198,Weight Loss,3,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,381,38,50,19,13,192,0.0,-5.3,140,63,7,158.0,215,Muscle Gain,13,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,314,22,24,2,9,148,12.0,-0.5,110,42,12,115.0,172,Weight Loss,-1,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,464,47,47,5,9,244,-7.0,6.8,164,78,4,203.0,267,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,47,46,9,10,250,13.0,3.8,188,61,9,198.0,279,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,382,23,54,2,6,198,2.0,10.7,140,62,0,168.0,221,Muscle Gain,15,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,476,34,56,8,4,242,7.0,-7.2,155,67,12,200.0,273,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,29,54,19,0,250,5.0,-0.19999999999999996,159,77,15,192.0,260,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,393,19,51,7,9,181,0.0,2.7,128,57,7,169.0,225,Muscle Gain,7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,278,23,26,11,14,175,5.0,-8.7,91,47,14,145.0,197,Weight Loss,1,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,430,40,53,14,14,190,10.0,-4.0,138,57,0,172.0,230,Muscle Gain,16,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,411,22,54,6,7,201,2.0,-2.0,122,61,1,175.0,246,Muscle Gain,0,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,45,40,12,-3,246,2.0,11.8,165,70,21,201.0,263,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,300,23,36,3,4,204,4.0,-0.8999999999999999,140,52,19,190.0,241,General Fitness,9,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,412,41,35,5,3,226,-1.0,6.7,163,60,11,187.0,236,Muscle Gain,4,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,30,47,24,9,254,5.0,-0.19999999999999996,152,62,8,195.0,260,Muscle Gain,9,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,422,42,20,17,9,237,7.0,-1.3,160,59,5,178.0,240,Muscle Gain,10,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,302,14,47,4,10,208,4.0,2.1,131,47,0,179.0,255,General Fitness,-5,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,320,20,25,5,13,149,9.0,-2.5,92,49,15,111.0,182,Weight Loss,0,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,327,22,29,2,-3,153,6.0,6.5,92,49,10,129.0,176,Weight Loss,15,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,413,42,26,9,4,225,2.0,3.7,158,47,7,182.0,248,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,390,30,47,7,6,227,-2.0,1.6,150,60,10,174.0,230,Muscle Gain,10,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,424,51,29,16,5,240,5.0,-1.3,164,64,12,180.0,242,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,459,35,55,14,16,252,-4.0,-4.2,171,63,19,207.0,279,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,53,24,15,-2,235,-5.0,8.7,160,61,16,188.0,247,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,281,18,43,1,16,174,-6.0,-5.7,97,44,18,144.0,208,Weight Loss,12,Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,276,19,35,20,-3,162,-3.0,5.3,99,43,14,131.0,208,Weight Loss,14,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,450,51,65,15,2,261,4.0,7.8,182,71,15,195.0,282,Muscle Gain,15,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,322,35,12,12,1,153,9.0,1.5,101,41,6,114.0,177,Weight Loss,15,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,460,50,55,17,8,260,-5.0,3.8,177,67,13,190.0,287,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,398,29,49,11,10,183,6.0,-5.3,121,61,4,155.0,224,Muscle Gain,15,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,286,16,25,10,-3,161,-4.0,3.3,99,30,14,149.0,194,Weight Loss,16,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,457,38,52,11,6,269,2.0,3.8,176,61,19,208.0,279,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,381,27,40,4,12,218,4.0,10.6,155,57,5,161.0,239,Muscle Gain,5,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,457,34,48,3,8,270,11.0,8.8,188,72,19,194.0,276,Muscle Gain,14,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,392,37,51,2,-2,198,13.0,8.7,135,67,16,164.0,210,Muscle Gain,6,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,373,34,59,13,10,230,5.0,-0.3999999999999999,158,69,15,164.0,248,Muscle Gain,16,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,398,34,55,20,-4,182,-6.0,11.7,120,70,1,160.0,215,Muscle Gain,11,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,415,34,57,12,9,199,12.0,-8.0,140,45,20,180.0,246,Muscle Gain,15,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,426,32,53,10,1,205,-3.0,-3.0,123,54,13,179.0,235,Muscle Gain,1,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,420,37,55,13,0,190,12.0,12.0,129,45,7,183.0,235,Muscle Gain,7,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,426,40,60,8,9,193,-3.0,3.0,135,51,14,174.0,243,Muscle Gain,6,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,326,23,19,5,-1,160,12.0,-5.5,93,46,16,113.0,174,Weight Loss,-1,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,315,31,19,6,-4,159,-3.0,-1.5,106,36,8,113.0,176,Weight Loss,-1,Non-Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,451,41,47,15,11,260,-4.0,6.8,185,66,18,193.0,276,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,37,52,10,13,251,-1.0,2.8,155,67,7,190.0,274,Muscle Gain,9,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,450,42,57,21,6,264,9.0,7.8,184,68,18,200.0,277,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,316,20,29,4,-5,152,-5.0,6.5,110,39,14,124.0,190,Weight Loss,3,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,413,20,45,25,14,193,14.0,8.0,123,57,14,173.0,237,Muscle Gain,19,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,317,25,21,6,-3,145,-6.0,6.5,104,38,10,114.0,176,Weight Loss,15,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,414,45,29,23,15,239,9.0,-4.3,154,51,2,190.0,248,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,38,51,6,14,210,-5.0,11.0,129,62,13,181.0,242,Muscle Gain,8,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,301,27,48,8,7,212,15.0,4.1,145,45,11,182.0,243,General Fitness,-5,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,451,46,55,17,6,250,12.0,-8.2,190,66,8,203.0,285,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,28,61,24,6,191,1.0,5.0,125,48,10,179.0,235,Muscle Gain,15,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,380,20,44,22,3,181,-1.0,5.7,122,58,6,150.0,221,Muscle Gain,18,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,49,57,10,11,264,14.0,4.8,178,62,15,198.0,290,Muscle Gain,8,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,469,39,44,23,3,240,7.0,1.8,166,71,15,193.0,265,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,466,36,45,11,16,253,-7.0,-1.2,155,72,4,208.0,271,Muscle Gain,21,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,318,32,21,15,10,154,9.0,-4.5,109,40,0,115.0,187,Weight Loss,-4,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,467,33,40,6,7,245,0.0,-6.2,162,64,8,207.0,269,Muscle Gain,18,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,415,48,26,20,8,225,7.0,-1.3,162,45,15,176.0,231,Muscle Gain,1,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,462,40,44,19,0,245,-7.0,11.8,164,65,13,196.0,276,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,314,16,30,7,-2,158,-4.0,1.5,108,47,7,120.0,176,Weight Loss,12,Non-Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,327,35,28,3,0,141,-2.0,-6.5,110,43,16,130.0,170,Weight Loss,-1,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,273,8,30,0,-2,180,-6.0,0.30000000000000004,95,39,1,142.0,196,Weight Loss,11,Veg,General Fitness,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,327,34,29,3,1,141,13.0,3.5,100,42,0,114.0,184,Weight Loss,1,Non-Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,385,39,54,10,8,216,-3.0,0.6000000000000001,145,64,5,180.0,234,Muscle Gain,0,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,423,57,34,16,1,222,-6.0,3.7,158,65,2,174.0,241,Muscle Gain,20,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,284,22,39,20,10,173,6.0,5.3,94,50,13,145.0,193,Weight Loss,12,Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,422,54,30,25,15,235,3.0,-7.3,154,65,15,174.0,231,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,376,32,40,15,1,215,-6.0,-7.4,142,55,7,163.0,245,Muscle Gain,16,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,412,50,33,8,13,240,-5.0,-1.3,150,52,11,183.0,244,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,457,40,62,17,4,256,10.0,2.8,189,78,8,208.0,281,Muscle Gain,7,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,383,29,54,13,12,197,-7.0,7.7,122,51,4,166.0,213,Muscle Gain,12,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,382,32,53,14,1,196,-3.0,4.7,131,68,20,166.0,226,Muscle Gain,10,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,377,32,56,5,-2,229,5.0,-1.4,149,58,22,173.0,244,Muscle Gain,5,Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,463,28,56,21,14,254,-7.0,0.8,153,71,5,191.0,268,Muscle Gain,24,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,323,29,11,18,6,147,6.0,-4.5,109,54,10,113.0,190,Weight Loss,1,Non-Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,410,20,58,7,10,204,7.0,12.0,124,53,11,186.0,234,Muscle Gain,17,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,381,36,48,2,3,197,-1.0,7.7,130,67,20,156.0,212,Muscle Gain,-1,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,39,63,22,13,257,-6.0,8.8,190,60,19,206.0,272,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,385,36,49,21,8,190,8.0,-3.3,135,64,16,157.0,227,Muscle Gain,9,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,413,47,38,10,7,237,11.0,5.7,168,51,14,186.0,237,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,447,43,48,4,6,269,11.0,-3.2,189,77,9,190.0,289,Muscle Gain,14,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,293,28,43,10,13,213,1.0,11.1,142,56,8,186.0,258,General Fitness,0,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,415,53,30,5,14,238,0.0,0.7,163,50,18,189.0,238,Muscle Gain,11,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,291,12,50,4,0,219,12.0,-7.9,135,63,20,176.0,245,General Fitness,-2,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,442,49,60,20,5,254,-4.0,9.8,190,68,8,202.0,287,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,309,13,30,9,7,207,8.0,-0.8999999999999999,149,64,0,173.0,251,General Fitness,8,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,288,21,27,12,9,166,-4.0,-5.7,89,49,4,140.0,197,Weight Loss,6,Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,309,11,46,0,4,216,-4.0,-3.9,136,59,11,178.0,245,General Fitness,13,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,305,11,48,9,5,206,13.0,12.1,135,55,12,185.0,244,General Fitness,7,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,286,13,27,7,13,164,5.0,-5.7,95,48,16,134.0,210,Weight Loss,14,Veg,General Fitness,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,386,23,57,5,3,182,3.0,-8.3,125,66,14,170.0,229,Muscle Gain,14,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,12,33,10,8,220,-2.0,11.1,149,54,17,183.0,241,General Fitness,1,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,381,31,45,7,-2,185,-1.0,-5.3,134,55,2,169.0,228,Muscle Gain,17,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,287,26,30,0,5,172,9.0,11.3,86,49,8,144.0,199,Weight Loss,-1,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,415,22,54,13,17,194,-6.0,-7.0,139,61,10,173.0,243,Muscle Gain,8,Veg,Muscle Gain,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,422,31,52,25,4,206,0.0,-6.0,132,49,9,181.0,238,Muscle Gain,20,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,416,48,29,11,7,222,12.0,4.7,159,52,20,180.0,242,Muscle Gain,0,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,302,29,49,15,2,218,4.0,1.1,138,53,13,179.0,254,General Fitness,8,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,416,51,32,20,14,223,5.0,4.7,151,53,7,179.0,246,Muscle Gain,5,Non-Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,285,8,38,16,8,161,9.0,-2.7,92,47,7,137.0,192,Weight Loss,12,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,426,29,63,10,13,207,-6.0,0.0,131,61,0,184.0,238,Muscle Gain,7,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,444,48,62,7,4,265,-6.0,11.8,180,78,18,207.0,282,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,313,30,12,12,5,146,5.0,9.5,104,42,18,123.0,180,Weight Loss,11,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,272,26,42,4,10,160,-6.0,10.3,86,42,0,147.0,209,Weight Loss,12,Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,468,43,60,8,-1,252,8.0,-2.2,156,80,15,209.0,265,Muscle Gain,25,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,325,29,20,10,10,156,-6.0,-7.5,93,51,19,121.0,187,Weight Loss,-1,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,474,39,55,6,7,242,5.0,-2.2,159,78,17,210.0,271,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,318,33,29,14,-1,152,0.0,6.5,96,46,11,123.0,178,Weight Loss,15,Non-Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,302,18,42,15,4,211,12.0,4.1,131,58,13,173.0,240,General Fitness,4,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,311,24,30,-1,12,144,7.0,1.5,99,35,17,112.0,170,Weight Loss,10,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,270,19,32,5,-1,165,9.0,9.3,82,32,7,147.0,195,Weight Loss,13,Veg,General Fitness,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,446,41,61,10,11,251,3.0,1.8,174,60,9,200.0,278,Muscle Gain,6,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,312,22,10,15,9,149,1.0,8.5,94,47,6,119.0,184,Weight Loss,15,Non-Veg,General Fitness,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,295,12,34,13,4,201,10.0,-0.8999999999999999,146,57,17,176.0,260,General Fitness,11,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,441,37,65,21,4,262,-5.0,-7.2,180,73,18,208.0,290,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,328,27,18,2,9,157,-3.0,1.5,109,46,15,128.0,174,Weight Loss,7,Non-Veg,General Fitness,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,420,48,20,5,-4,232,6.0,5.7,170,53,9,183.0,247,Muscle Gain,0,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,480,42,43,7,7,257,7.0,2.8,150,71,2,205.0,274,Muscle Gain,21,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,392,31,59,19,-5,194,-5.0,-7.3,124,57,5,155.0,215,Muscle Gain,0,Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,295,20,44,18,-3,212,12.0,6.1,147,61,9,184.0,243,General Fitness,4,Veg,Muscle Gain,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,373,24,41,8,7,210,3.0,1.6,158,57,20,160.0,230,Muscle Gain,1,Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,382,31,56,8,9,197,-5.0,6.7,120,54,2,162.0,217,Muscle Gain,1,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,315,20,13,9,-1,152,-5.0,-3.5,110,43,18,126.0,175,Weight Loss,0,Non-Veg,General Fitness,No
+Soybean and Vegetable Stir-Fry,Vegetarian,Dinner,Asian,385,28,60,2,-2,216,12.0,-5.4,143,70,12,165.0,236,Muscle Gain,11,Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,417,54,36,8,-3,228,-7.0,5.7,157,52,0,188.0,247,Muscle Gain,4,Non-Veg,Muscle Gain,No
+Homemade Protein Bar,Vegetarian,Snacks,Western,304,16,48,15,16,205,-3.0,-5.9,142,48,14,189.0,245,General Fitness,10,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,321,22,20,18,0,156,2.0,-0.5,106,39,10,127.0,172,Weight Loss,0,Non-Veg,General Fitness,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,288,21,39,6,9,165,-4.0,11.3,82,47,3,143.0,194,Weight Loss,3,Veg,General Fitness,No
+Paneer Bhurji with Multigrain Roti,Vegetarian,Dinner,North Indian,420,34,63,18,3,204,10.0,5.0,136,57,18,173.0,231,Muscle Gain,9,Veg,Muscle Gain,No
+Egg White Omelet with Spinach,Non-Vegetarian,Breakfast,Western,318,35,28,6,12,144,3.0,-0.5,101,41,7,115.0,190,Weight Loss,9,Non-Veg,General Fitness,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,475,36,44,22,12,260,11.0,1.8,165,60,16,209.0,280,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,455,49,64,10,15,264,13.0,7.8,182,72,22,208.0,289,Muscle Gain,16,Non-Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,447,35,50,12,12,250,-3.0,9.8,170,69,21,206.0,270,Muscle Gain,12,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,425,57,36,11,7,237,8.0,-8.3,164,45,17,178.0,235,Muscle Gain,2,Non-Veg,Muscle Gain,No
+Egg and Avocado Wrap,Non-Vegetarian,Lunch,Fusion,412,48,21,12,-3,223,1.0,-5.3,164,62,10,189.0,235,Muscle Gain,17,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,463,37,57,11,-4,249,0.0,8.8,152,69,10,193.0,276,Muscle Gain,22,Non-Veg,Muscle Gain,No
+Baked Fish with Brown Rice,Non-Vegetarian,Dinner,Western,480,39,58,13,8,246,13.0,11.8,162,64,7,190.0,263,Muscle Gain,13,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,399,23,46,15,6,190,8.0,-0.30000000000000004,120,57,17,160.0,215,Muscle Gain,15,Veg,Muscle Gain,No
+Steamed Chicken with Brown Rice,Non-Vegetarian,Lunch,Asian,453,33,59,4,4,257,11.0,-8.2,180,62,14,210.0,273,Muscle Gain,14,Non-Veg,Muscle Gain,No
+Tofu and Broccoli Stir Fry,Vegetarian,Dinner,Asian,398,37,55,3,15,182,-3.0,-1.3,140,53,7,170.0,215,Muscle Gain,1,Veg,Muscle Gain,No
+Sprouts and Peanut Chaat,Vegetarian,Snacks,Indian,279,11,33,20,8,173,7.0,3.3,90,35,5,130.0,199,Weight Loss,16,Veg,General Fitness,No
+Oats with Almond Milk,Vegetarian,Breakfast,Western,250,40,8,5,6,180,4.0,1.5,100,40,7,120.0,170,Weight Loss,6,Veg,Weight Loss,No
+Grilled Chicken Salad,Non-Vegetarian,Lunch,Western,320,15,35,10,5,200,3.0,1.8,140,50,8,150.0,210,Weight Loss,10,Non-Veg,Weight Loss,No
+Moong Dal Chilla,Vegetarian,Breakfast,North Indian,280,30,12,7,4,190,3.0,1.6,110,45,9,130.0,180,Weight Loss,5,Veg,Weight Loss,No
+Steamed Sprouts Chaat,Vegetarian,Snacks,Indian,220,25,10,4,3,160,2.0,1.2,90,35,7,110.0,150,Weight Loss,4,Veg,Weight Loss,No
+Quinoa Upma,Vegetarian,Breakfast,South Indian,290,35,10,6,5,170,3.0,1.4,120,40,8,140.0,190,Weight Loss,6,Veg,Weight Loss,No
+Bajra Roti with Curd,Vegetarian,Lunch,North Indian,350,45,12,8,6,220,3.0,1.5,140,50,9,160.0,210,General Fitness,8,Veg,General Fitness,No
+Grilled Tofu with Vegetables,Vegetarian,Dinner,Fusion,330,20,25,10,5,190,3.0,1.7,130,45,8,150.0,200,Weight Loss,9,Veg,Weight Loss,No
+Mixed Nuts and Seeds,Vegetarian,Snacks,Western,280,10,8,22,4,210,5.0,2.0,100,40,7,130.0,180,General Fitness,5,Veg,General Fitness,No
+Egg Bhurji with Whole Wheat Roti,Non-Vegetarian,Dinner,Indian,400,35,30,12,5,240,3.0,1.6,160,60,10,180.0,230,General Fitness,12,Non-Veg,General Fitness,No

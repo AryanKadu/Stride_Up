@@ -1,0 +1,201 @@
+{% extends 'base.html' %}
+{% block title %}Workout Details{% endblock %}
+
+{% block content %}
+<style>
+/* Dark Neon Theme Enhancement */
+body {
+  background-color: #121212;
+  color: #dcdcdc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h3 {
+  color: #7ffe6c;
+  text-shadow: 0 0 3px #5bdc49;
+}
+
+/* Card Styling */
+.card-body {
+  background-color: #1a1a1a;
+  border: 1px solid #3faa2d;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(63, 170, 45, 0.3);
+  padding: 30px;
+}
+
+/* Trainee Name */
+.text-muted, .text-secondary {
+  color: #aaaaaa !important;
+}
+
+/* List Group */
+.list-group-item {
+  background-color: #181818;
+  color: #e0e0e0;
+  border: none;
+  border-bottom: 1px solid #3faa2d;
+  padding: 14px 18px;
+}
+
+.list-group-item:hover {
+  background-color: #222;
+}
+
+.list-group-item strong {
+  color: #a1ff8b;
+  text-shadow: 0 0 2px #6bd94e;
+}
+
+/* Buttons */
+.btn {
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+
+.btn-outline-primary {
+  border: 1.5px solid #7ffe6c;
+  color: #7ffe6c;
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: #7ffe6c;
+  color: #000;
+  box-shadow: 0 0 10px rgba(127, 254, 108, 0.3);
+}
+
+.btn-outline-danger {
+  border: 1.5px solid #ff5c5c;
+  color: #ff5c5c;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff5c5c;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(255, 92, 92, 0.4);
+}
+
+.btn-warning {
+  background-color: #f0b429;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #d79c1e;
+  box-shadow: 0 0 6px #d79c1e;
+}
+
+.btn-danger {
+  background-color: #c0392b;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #a93226;
+}
+
+.btn-success {
+  background-color: #7ffe6c;
+  color: #000;
+}
+
+.btn-success:hover {
+  background-color: #5bdc49;
+  box-shadow: 0 0 10px rgba(91, 220, 73, 0.4);
+}
+
+.btn-info {
+  background-color: #202020;
+  border: 1px solid #7ffe6c;
+  color: #7ffe6c;
+}
+
+.btn-info:hover {
+  background-color: #7ffe6c;
+  color: #000;
+  box-shadow: 0 0 8px rgba(127, 254, 108, 0.3);
+}
+
+/* Icons */
+i {
+  margin-right: 6px;
+  color: #7ffe6c;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .d-flex.gap-2 {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+</style>
+
+<main>
+<div class="container mt-5">
+  <div class="card shadow-lg border-0">
+    <div class="card-body">
+      <h2 class="fw-bold">{{ workout.name }} <span class="text-muted">({{ workout.date }})</span></h2>
+      <p class="text-light"><strong>Trainee:</strong> {{ workout.trainee.username }}</p>
+
+      {% if is_trainer %}
+      <div class="d-flex gap-2 mb-4">
+        <a href="{% url 'workouts:workout_update' workout.pk %}" class="btn btn-outline-primary">
+          <i class="fas fa-edit"></i> Edit Workout
+        </a>
+        <a href="{% url 'workouts:workout_delete' workout.pk %}" class="btn btn-outline-danger">
+          <i class="fas fa-trash-alt"></i> Delete Workout
+        </a>
+      </div>
+      {% endif %}
+
+      <hr>
+      <h3 class="fw-bold">Exercises</h3>
+      {% if exercises %}
+      <ul class="list-group list-group-flush mb-3">
+        {% for exercise in exercises %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <strong>{{ exercise.name }}</strong> – {{ exercise.description }}<br>
+            <small>Sets: {{ exercise.sets }}, Reps: {{ exercise.reps }}</small>
+          </div>
+          {% if is_trainer %}
+          <div class="d-flex gap-2">
+            <a href="{% url 'workouts:exercise_update' workout.pk exercise.pk %}" class="btn btn-warning btn-sm">
+              <i class="fas fa-edit"></i> Edit
+            </a>
+            <a href="{% url 'workouts:exercise_delete' workout.pk exercise.pk %}" class="btn btn-danger btn-sm">
+              <i class="fas fa-trash-alt"></i> Delete
+            </a>
+          </div>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="text-muted">No exercises added yet.</p>
+      {% endif %}
+
+      {% if is_trainer %}
+      <a href="{% url 'workouts:exercise_create' workout.pk %}" class="btn btn-success mt-3">
+        <i class="fas fa-plus"></i> Add Exercise
+      </a>
+      {% endif %}
+
+      {% if not is_trainer %}
+      <a href="{% url 'workouts:progress_update' workout.pk %}" class="btn btn-info mt-3">
+        <i class="fas fa-chart-line"></i> Update Progress
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+</main>
+{% endblock %}

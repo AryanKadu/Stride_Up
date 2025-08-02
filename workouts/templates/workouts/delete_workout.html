@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Delete Workout{% endblock %}
+
+{% block content %}
+<main>
+<div class="container mt-5">
+    <h2>Confirm Delete</h2>
+    <p>Are you sure you want to delete the workout <strong>{{ workout.name }}</strong>?</p>
+    
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Yes, Delete</button>
+        <a href="{% url 'workouts:workout_detail' workout.id %}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+</main>
+{% endblock %}

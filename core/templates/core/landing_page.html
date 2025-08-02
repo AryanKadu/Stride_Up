@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Welcome to StrideUp{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/landing_page.css' %}">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<main>
+
+    <div class="container">
+        <header class="text-center my-5">
+            <h1 class="display-3 font-weight-bold">Welcome to StrideUp</h1>
+            <p class="lead ">Your personal fitness journey starts here!</p>
+        </header>
+    
+    <!-- Hero Carousel -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-images">
+                <div class="slide active">
+                    <img src=" {% static  'images/equipment.jpg' %}" alt="Fitness">
+                    <div class="caption">"There is no perfect time to start, starting itself makes the time perfect"</div>
+                </div>
+                <div class="slide">
+                    <img src="{% static '/images/community.jpg' %}" alt="Workout">
+                    <div class="caption">Join Our Fitness Programs & Transform Yourself</div>
+                </div>
+                <div class="slide">
+                    <img src="{% static '/images/training.jpg' %}" alt="Yoga">
+                    <div class="caption">Explore our Membership Plans & Get Fit Today</div>
+                </div>
+            </div>
+        
+            <!-- <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button> -->
+        </div>
+        
+    </div>
+    
+        <section class="text-center">
+            <a href="{% url 'users:signup' %}" class="btn font-weight-bold get-started">Get Started</a>
+        </section>
+    
+        <section class="mt-5">
+            <h2 class="text-center font-weight-bold">Why StrideUp?</h2>
+            <div class="carousel-container1">
+                <button id="prevFeature" class="carousel-btn1">&#9665;</button>
+                <div id="featureBox" class="feature-box">
+                    <h3 id="featureTitle" class="feature-title">Expert Trainers</h3>
+                    <p id="featureText" class="feature-text">Work with professional trainers to achieve your fitness goals.</p>
+                </div>
+                <button id="nextFeature" class="carousel-btn1">&#9655;</button>
+            </div>
+        </section>
+    
+    <!-- Stats Section -->
+    <div class="stats-section">
+        <div class="stats-heading">
+            <h2>Community That is Transforming Lives Everyday</h2>
+        </div>
+        <div class="stats-container">
+            <div class="stat">
+                <h2><span id="users-count">0</span>+</h2>
+                <p>No. of Users</p>
+            </div>
+            <div class="stat">
+                <h2><span id="trainers-count">0</span>+</h2>
+                <p>Expert Trainers</p>
+            </div>
+            <div class="stat">
+                <h2><span id="sessions-count">0</span>+</h2>
+                <p>Sessions Completed</p>
+            </div>
+            <div class="stat" id="stat">
+                <h2><span id="years-count">0</span>+</h2>
+                <p>Serving Fitness for years</p>
+            </div>
+        </div>
+    </div>
+    
+        <!-- Trainers Section -->
+        <section class="trainers-section" id="trainers-section">
+            <h2>Meet Our Expert Trainers</h2>
+            <div class="trainers-carousel-container">
+                <button class="prev-btn">❮</button>
+                <div class="trainers-carousel-wrapper">
+                    <div class="trainers-carousel">
+                        <!-- Trainer 1 -->
+                        <div class="trainer">
+                            <img src="{% static '/images/trainer2.jpg' %}" alt="Trainer 1">
+                            <h4>Sarah Johnson</h4>
+                            <p>Expert in Fitness, Yoga, and Personal Training.</p>
+                        </div>
+                        <!-- Trainer 2 -->
+                        <div class="trainer">
+                            <img src="{% static '/images/trainer1.jpg' %}" alt="Trainer 2">
+                            <h4>Michael Brown</h4>
+                            <p>Specializes in Strength Training and Nutrition.</p>
+                        </div>
+                        <!-- Trainer 3 -->
+                        <div class="trainer">
+                            <img src="{% static '/images/trainer3.jpg' %}" alt="Trainer 3">
+                            <h4>Peter Wilson</h4>
+                            <p>Certified in Pilates and Group Fitness.</p>
+                        </div>
+                        <!-- Trainer 4 -->
+                        <div class="trainer">
+                            <img src="{% static '/images/trainer4.jpg' %}" alt="Trainer 4">
+                            <h4>David Chen</h4>
+                            <p>Expert in HIIT and CrossFit.</p>
+                        </div>
+                        <!-- Trainer 5 -->
+                        <div class="trainer">
+                            <img src="{% static '/images/trainer5.jpg' %}" alt="Trainer 5">
+                            <h4>Olivia Lee</h4>
+                            <p>Specializes in Martial Arts and Self-defense Training.</p>
+                        </div>
+                        <!-- Trainer 6 -->
+                        <div class="trainer">
+                            <img src="{% static '/images/trainer6.jpg' %}" alt="Trainer 6">
+                            <h4>James Rodriguez</h4>
+                            <p>Expert in Aerobics and Zumba.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="next-btn">❯</button>
+            </div>
+        </section>
+    
+    
+        <!-- Reviews Section -->
+        <div class="reviews-container">
+            <h2>What Our Members Say</h2>
+            <div class="reviews">
+                <div class="review">
+                    <p class="review-text">"StrideUp has transformed my fitness journey! The trainers are super supportive and the programs are effective."</p>
+                    <p class="review-author">- Alex Johnson</p>
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">"I love the community vibe here. The sessions are engaging, and I feel more motivated every day!"</p>
+                    <p class="review-author">- Sarah Williams</p>
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">"Amazing gym with great equipment and expert trainers. The membership plans are worth it!"</p>
+                    <p class="review-author">- Daniel Smith</p>
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">"The best decision I made this year was joining StrideUp! The workouts are fun and effective."</p>
+                    <p class="review-author">- Emma Brown</p>
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">"Highly professional trainers and well-structured programs. My stamina has improved tremendously!"</p>
+                    <p class="review-author">- Michael Lee</p>
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">"I've tried many gyms, but StrideUp stands out with its positive environment and expert trainers!"</p>
+                    <p class="review-author">- Olivia Davis</p>
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<script src="{%static 'js/landing_page.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: url('gym-banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0dfa05;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: #0dfa05;
+}
+
+/* Programs Section */
+.programs {
+    padding: 50px;
+    background: #222;
+}
+
+.programs h2 {
+    color: #0dfa05;
+}
+
+.program-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.program-card {
+    background: #111;
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.program-card:hover {
+    transform: scale(1.05);
+}
+
+.program-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.program-card h3 {
+    margin-top: 10px;
+    color: #0dfa05;
+}
+
+/* Pricing Table */
+.pricing {
+    padding: 50px;
+    background: #111;
+}
+
+.pricing h2 {
+    color: #0dfa05;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #222;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #0dfa05;
+}
+
+th {
+    background: #0dfa05;
+    color: black;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px;
+    background: #222;
+}
+
+.testimonials h2 {
+    color: #0dfa05;
+}
+
+.testimonial {
+    background: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 60%;
+    font-weight: bold;
+}
+
+
+
+/* Footer section */
+.footer {
+    width: 100%;
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
+  .footer a {
+    color: #0dfa05;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    opacity: 0.8;
+  }

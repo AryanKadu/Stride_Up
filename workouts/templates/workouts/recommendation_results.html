@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}Recommendations{% endblock %}
+
+{% block content %}
+<main>
+  <div class="container mt-5">
+    <h2 class="text-center">Your Recommendations</h2>
+    {% if error %}
+      <div class="alert alert-danger">{{ error }}</div>
+    {% else %}
+      <h3>Diet Plan</h3>
+      <ul>
+        {% for day in recommendations.diet_plan %}
+          <li>
+            <strong>Day {{ forloop.counter }}</strong>
+            <ul>
+              <li>Breakfast: {{ day.Breakfast.Food_Item }} ({{ day.Breakfast.Calories_kcal }} kcal)</li>
+              <li>Lunch: {{ day.Lunch.Food_Item }} ({{ day.Lunch.Calories_kcal }} kcal)</li>
+              <li>Snacks: {{ day.Snacks.Food_Item }} ({{ day.Snacks.Calories_kcal }} kcal)</li>
+              <li>Dinner: {{ day.Dinner.Food_Item }} ({{ day.Dinner.Calories_kcal }} kcal)</li>
+            </ul>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h3>Workout Recommendations</h3>
+      <ul>
+        {% for workout in recommendations.workout_recommendations %}
+          <li>
+            <strong>{{ workout.Day }}</strong>: 
+            {{ workout.Workout_Name }} - 
+            {{ workout.Target_Muscle_Group }} ({{ workout.Workout_Type }}, {{ workout.Calories_Burned }} kcal burned)
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</main>
+{% endblock %}

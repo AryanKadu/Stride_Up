@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style>
+  /* Dashboard Styling (Matching Weekly Workouts Look) */
+
+h1, .display-4 {
+  font-family: 'Bebas Neue', cursive;
+  color: #0dfa05;
+  text-shadow: 0 0 10px #0dfa05;
+  letter-spacing: 1px;
+}
+
+.card {
+  background-color: #1c1c1c;
+  color: white;
+  border: 1px solid #0dfa05;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(13, 250, 5, 0.3);
+}
+
+.card-header {
+  background-color: #000 !important;
+  color: #0dfa05 !important;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-body {
+  background-color: #0d0907;
+}
+
+.card-title.text-info {
+  color: #0dfa05 !important;
+  text-shadow: 0 0 5px #0dfa05;
+}
+
+.btn-outline-primary,
+.btn-secondary,
+.btn-info,
+.btn-danger {
+  background-color: transparent;
+  color: #0dfa05;
+  border: 2px solid #0dfa05;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-secondary:hover,
+.btn-info:hover,
+.btn-danger:hover {
+  background-color: #0dfa05;
+  color: #000;
+  box-shadow: 0 0 10px #0dfa05;
+  transform: scale(1.05);
+}
+
+.lead {
+  font-style: italic;
+  color: #ccc;
+}
+
+.text-muted {
+  color: #999 !important;
+}
+
+.text-warning {
+  color: #0dfa05 !important;
+}
+
+.text-danger {
+  color: red !important;
+}
+
+.btn-sm {
+  margin-top: 8px;
+  background-color: transparent;
+  color: #0dfa05;
+  border: 2px solid #0dfa05;
+  border-radius: 5px;
+}
+
+.btn-sm:hover {
+  background-color: #0dfa05;
+  color: #000;
+  box-shadow: 0 0 10px #0dfa05;
+}
+
+.mt-4, .mb-4 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0 8px rgba(13, 250, 5, 0.2) !important;
+}
+
+@media (max-width: 600px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+}
+
+</style>
+
+<main>
+  <div class="container mt-4">
+    <div class="text-center mb-4">
+      <h1 class="display-4">Welcome, {{ user.username }}! 🌟</h1>
+      <p class="lead">"Every workout counts. Stay strong, stay focused!"</p>
+    </div>
+  
+    <!-- Today's Workouts -->
+    <div class="card shadow-sm mb-4">
+      <div class="card-header bg-primary text-white">
+        <h5><i class="fas fa-dumbbell"></i> Today's Workouts</h5>
+      </div>
+      <div class="card-body">
+        {% if workouts %}
+          <div class="row">
+            {% for workout in workouts %}
+              <div class="col-md-6 mb-3">
+                <div class="card border-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-info">{{ workout.name }}</h5>
+                    <p class="card-text"><i class="fas fa-calendar-day"></i> {{ workout.date }}</p>
+                    <a href="{% url 'workouts:workout_detail' workout.id %}" 
+                       class="btn btn-sm btn-outline-primary">
+                      View Details <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% else %}
+          <p class="text-muted">No workouts scheduled for today.</p>
+        {% endif %}
+      </div>
+    </div>
+  
+    <!-- Weekly Plan & Progress -->
+    <div class="d-flex justify-content-between flex-wrap mb-4">
+      <a href="{% url 'workouts:weekly_workout' %}" class="btn btn-secondary">
+        <i class="fas fa-calendar-alt"></i> Weekly Workout Plan
+      </a>
+      <a href="{% url 'workouts:progress_history' %}" class="btn btn-info">
+        <i class="fas fa-chart-line"></i> View My Progress
+      </a>
+      <form id="logout-form" method="post" action="{% url 'users:logout' %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">
+          <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+      </form>
+    </div>
+  
+    <!-- Health Tips & Nutrition Info -->
+    <div class="row">
+      <!-- Health Tips from MyHealthfinder API -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-success text-white">
+            <h5><i class="fas fa-heartbeat"></i> Health Tip of the Day</h5>
+          </div>
+          <div class="card-body" id="health-tip">
+            <p class="text-muted">Fetching the latest health advice...</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Nutrition Facts from FatSecret API -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-warning text-dark">
+            <h5><i class="fas fa-apple-alt"></i> Nutrition Insights</h5>
+          </div>
+          <div class="card-body" id="nutrition-info">
+            <p class="text-muted">Fetching nutritional details...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    function fetchData(url, elementId, defaultMessage) {
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (data && data.tip) {
+            document.getElementById(elementId).innerHTML = `<p>${data.tip}</p>`;
+          } else if (data && data.nutrition) {
+            document.getElementById(elementId).innerHTML = `<p>${data.nutrition}</p>`;
+          } else {
+            document.getElementById(elementId).innerHTML = `<p class='text-warning'>${defaultMessage}</p>`;
+          }
+        })
+        .catch(() => {
+          document.getElementById(elementId).innerHTML = "<p class='text-danger'>Failed to load data. Please try again later.</p>";
+        });
+    }
+
+    fetchData("/workouts/api/health-tip/", "health-tip", "No health tips available at the moment.");
+    fetchData("/workouts/api/nutrition-info/", "nutrition-info", "No nutrition insights available at the moment.");
+  });
+</script>
+{% endblock %}
