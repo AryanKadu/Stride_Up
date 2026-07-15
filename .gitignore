@@ -1,0 +1,21 @@
+# Environment variables — NEVER commit secrets
+.env
+
+# SQLite local database — use Supabase in production
+db.sqlite3
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Django collected static (generated on deploy)
+staticfiles/
+
+# Local logs
+*.log
+django.log
+
+# OS files
+.DS_Store
+Thumbs.db

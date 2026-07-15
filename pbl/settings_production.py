@@ -13,16 +13,15 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # Allowed hosts for production
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 
-# Database configuration for production
+# Database configuration for production (reads DB_URI env var set on Render)
+import dj_database_url
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DB_NAME'),
-        'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': os.environ.get('DB_HOST'),
-        'PORT': os.environ.get('DB_PORT', '5432'),
-    }
+    'default': dj_database_url.parse(
+        os.environ.get('DB_URI'),
+        conn_max_age=600,
+        ssl_require=True,
+    )
 }
 
 # Static files configuration

@@ -99,12 +99,27 @@ WSGI_APPLICATION = 'pbl.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+import dj_database_url
+from decouple import config
+
+_db_uri = config('DB_URI', default=None)
+
+if _db_uri:
+    # Use Supabase (or any Postgres) when DB_URI is set in .env
+    DATABASES = {
+        'default': dj_database_url.parse(
+            _db_uri,
+            conn_max_age=600,
+        )
     }
-}
+else:
+    # Default: SQLite for local dev without .env DB_URI
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation

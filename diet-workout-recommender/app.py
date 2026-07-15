@@ -2,12 +2,14 @@ from flask import Flask, request, jsonify
 from utils.preprocess import preprocess_diet_data, preprocess_workout_data
 from models.diet_recommender import recommend_diet
 from models.workout_recommender import recommend_workout
+import os
 
 app = Flask(__name__)
 
-# Preprocess data
-diet_data = preprocess_diet_data(r"C:\Users\Humanshu\Desktop\PBL\diet-workout-recommender\data\indian_diet_dataset_1000_weight_loss_fitness.csv")
-workout_data = preprocess_workout_data(r"C:\Users\Humanshu\Desktop\PBL\diet-workout-recommender\data\indian_workout_dataset.csv")
+# Resolve data paths relative to this file (works on any machine)
+_base = os.path.dirname(os.path.abspath(__file__))
+diet_data    = preprocess_diet_data(os.path.join(_base, "data", "indian_diet_dataset_1000_weight_loss_fitness.csv"))
+workout_data = preprocess_workout_data(os.path.join(_base, "data", "indian_workout_dataset.csv"))
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -15,9 +17,41 @@ def recommend():
     user_input = request.json
     
     # Map user input to model input
-    user_input['calories'] = 2000  # Example calorie requirement
-    user_input['category'] = 1 if user_input['dietary_preference'] == "Veg" else 0
-    user_input['calories_burned'] = 400  # Example calories burned
+    age    = float(user_input.get('age', 25))
+    weight = float(user_input.get('weight', 70))   # kg
+    height = float(user_input.get('height', 170))  # cm
+    gender = user_input.get('gender', 'Male')
+    goal   = user_input.get('fitness_goal', 'General Fitness')
+
+    # Mifflin-St Jeor BMR formula
+    if gender == 'Female':
+        bmr = 10 * weight + 6.25 * height - 5 * age - 161
+    else:
+        bmr = 10 * weight + 6.25 * height - 5 * age + 5
+
+    # TDEE: moderate activity multiplier (3–5 days/week)
+    tdee = bmr * 1.55
+
+    # Adjust calorie target based on fitness goal
+    goal_calorie_adjustments = {
+        'Weight Loss':    -500,
+        'Muscle Gain':    +300,
+        'General Fitness':   0,
+        'Maintenance':       0,
+    }
+    calorie_target = tdee + goal_calorie_adjustments.get(goal, 0)
+
+    # Estimate calories burned per session based on weight and goal intensity
+    burned_map = {
+        'Weight Loss':     weight * 5.5,
+        'Muscle Gain':     weight * 4.0,
+        'General Fitness': weight * 3.5,
+        'Maintenance':     weight * 3.5,
+    }
+
+    user_input['calories']        = round(calorie_target)
+    user_input['calories_burned'] = round(burned_map.get(goal, weight * 4.0))
+    user_input['category']        = 1 if user_input['dietary_preference'] == "Veg" else 0
     
     # Filter diet data based on user preferences
     filtered_diet_data = diet_data[

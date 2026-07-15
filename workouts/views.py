@@ -56,12 +56,13 @@ def get_recommendations(request):
             "age": request.POST.get("age"),
             "weight": request.POST.get("weight"),
             "height": request.POST.get("height"),
+            "gender": request.POST.get("gender", "Male"),
             "dietary_preference": request.POST.get("dietary_preference"),  # Veg or Non-Veg
-            "fitness_goal": request.POST.get("fitness_goal"),  # Example: "Weight Loss"
+            "fitness_goal": request.POST.get("fitness_goal"),  # e.g. "Weight Loss"
         }
         try:
             # Call the deployed API
-            response = requests.post('https://ai-recom-api-strideup.onrender.com/recommend', json=payload)
+            response = requests.post('https://ai-recom-api-strideup.onrender.com/recommend', json=payload, timeout=30)
             response.raise_for_status()
             recommendations = preprocess_json_keys(response.json())  # Preprocess JSON keys
             return render(request, 'workouts/recommendation_results.html', {'recommendations': recommendations})
@@ -313,31 +314,29 @@ def get_health_tip(request):
     return JsonResponse({"tip": health_tip})
     
 def get_nutrition_info(request):
-    # Unique cache key based on the product's barcode or some other unique identifier
-    cache_key = 'nutrition_info_737628064502'  # Assuming the barcode '737628064502' is the unique identifier for this product
+    cache_key = 'nutrition_info_737628064502'
     nutrition_info = cache.get(cache_key)
 
     if not nutrition_info:
-        # If the data is not in the cache, make the API request
         url = "https://world.openfoodfacts.org/api/v0/product/737628064502.json"
 
         try:
-            response = requests.get(url)
+            response = requests.get(url, timeout=5)
             response.raise_for_status()
             data = response.json()
 
-            product_name = data.get("product", {}).get("product_name", "Unknown Product")
-            calories = data.get("product", {}).get("nutriments", {}).get("energy-kcal", "Data not available")
-            
-            nutrition_info = f"{product_name} contains {calories} kcal per serving."
+            # Use `or {}` to safely handle null product (API returns null when not found)
+            product = data.get("product") or {}
+            product_name = product.get("product_name", "Unknown Product")
+            calories = product.get("nutriments", {}).get("energy-kcal", "N/A")
 
-            # Cache the nutrition information for 1 hour (3600 seconds)
+            nutrition_info = f"{product_name} contains {calories} kcal per serving."
             cache.set(cache_key, nutrition_info, timeout=3600)
 
-        except requests.RequestException as e:
-            return JsonResponse({"error": "Failed to fetch nutrition info", "details": str(e)}, status=500)
+        except Exception:
+            # Return a friendly fallback — don't 500, let the UI display a message
+            nutrition_info = "Eat balanced meals rich in protein, healthy fats, and complex carbs to fuel your workouts."
 
-    # Return the nutrition information (either from cache or freshly fetched)
     return JsonResponse({"nutrition": nutrition_info})
 
 

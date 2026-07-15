@@ -37,6 +37,7 @@
           }
           
           main {
+            flex: 1;
             margin-top: 100px; /* Space for fixed navbar */
             display: flex;
             flex-direction: column;
