@@ -49,9 +49,9 @@ def preprocess_json_keys(data):
 def get_recommendations(request):
     """
     Render the form and fetch diet and workout recommendations from the deployed API.
+    Caches results per unique payload to avoid hammering the free-tier Flask API.
     """
     if request.method == 'POST':
-        # Example payload from the form
         payload = {
             "age": request.POST.get("age"),
             "weight": request.POST.get("weight"),
@@ -60,12 +60,33 @@ def get_recommendations(request):
             "dietary_preference": request.POST.get("dietary_preference"),  # Veg or Non-Veg
             "fitness_goal": request.POST.get("fitness_goal"),  # e.g. "Weight Loss"
         }
+
+        # Build a cache key from the payload so same inputs reuse cached result
+        cache_key = "recom_" + "_".join(str(v) for v in payload.values())
+        cached = cache.get(cache_key)
+        if cached:
+            return render(request, 'workouts/recommendation_results.html', {'recommendations': cached})
+
         try:
-            # Call the deployed API
-            response = requests.post('https://ai-recom-api-strideup.onrender.com/recommend', json=payload, timeout=30)
+            # Call the deployed Flask API with a longer timeout (free tier is slow to wake)
+            response = requests.post(
+                'https://ai-recom-api-strideup.onrender.com/recommend',
+                json=payload,
+                timeout=60
+            )
+            if response.status_code == 429:
+                return render(request, 'workouts/recommendation_results.html', {
+                    'error': 'The recommendation service is busy. Please wait a moment and try again.'
+                })
             response.raise_for_status()
-            recommendations = preprocess_json_keys(response.json())  # Preprocess JSON keys
+            recommendations = preprocess_json_keys(response.json())
+            # Cache result for 1 hour — same inputs don't need a fresh API call
+            cache.set(cache_key, recommendations, timeout=3600)
             return render(request, 'workouts/recommendation_results.html', {'recommendations': recommendations})
+        except requests.exceptions.Timeout:
+            return render(request, 'workouts/recommendation_results.html', {
+                'error': 'The recommendation service took too long to respond. It may be waking up — please try again in 30 seconds.'
+            })
         except requests.exceptions.RequestException as e:
             return render(request, 'workouts/recommendation_results.html', {'error': str(e)})
     else:
