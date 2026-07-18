@@ -11,6 +11,10 @@ _base = os.path.dirname(os.path.abspath(__file__))
 diet_data    = preprocess_diet_data(os.path.join(_base, "data", "indian_diet_dataset_1000_weight_loss_fitness.csv"))
 workout_data = preprocess_workout_data(os.path.join(_base, "data", "indian_workout_dataset.csv"))
 
+@app.route('/', methods=['GET'])
+def health_check():
+    return jsonify({"status": "ok", "message": "AI Recommendation API is running!"})
+
 @app.route('/recommend', methods=['POST'])
 def recommend():
     # Get user input from the request

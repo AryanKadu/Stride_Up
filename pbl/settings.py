@@ -175,7 +175,8 @@ AUTH_USER_MODEL = 'users.CustomUser'
 LOGIN_REDIRECT_URL = 'core:dashboard_redirect'
 LOGOUT_REDIRECT_URL = 'users:login'
 
-USDA_API_KEY = 'RZYGVDci1HnRow5PuE1Fjf06m8CqD0b1mtSA07Hy'
+USDA_API_KEY = config('USDA_API_KEY', default='')
+API_NINJAS_KEY = config('API_NINJAS_KEY', default='')
 
 # settings.py
 

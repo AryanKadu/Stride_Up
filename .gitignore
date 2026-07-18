@@ -19,3 +19,7 @@ django.log
 # OS files
 .DS_Store
 Thumbs.db
+
+# VS Code temp files
+tempCodeRunnerFile.py
+*.tempCodeRunnerFile*

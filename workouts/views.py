@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.views.generic import DetailView, CreateView, UpdateView, ListView, DeleteView
 from django.urls import reverse, reverse_lazy
@@ -46,6 +47,7 @@ def preprocess_json_keys(data):
         return data
 
 
+@login_required
 def get_recommendations(request):
     """
     Render the form and fetch diet and workout recommendations from the deployed API.
@@ -366,7 +368,7 @@ class WorkoutAPIDataView(View):
         """Fetch exercises from API Ninjas"""
         url = "https://api.api-ninjas.com/v1/exercises"
         headers = {
-            'X-Api-Key': 'YWp4fHmJqunUbuo/gHTteA==XoE3uDxllgRnEaoG',  # Replace with your actual API key
+            'X-Api-Key': settings.API_NINJAS_KEY,
         }
         response = requests.get(url, headers=headers)
 
